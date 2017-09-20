@@ -1,0 +1,36 @@
+#team-main-container {
+    background-color: rgb(249, 249, 249);
+    padding: 80px 70px;
+    /*background-color: white;*/
+}
+
+#team-main-container img {
+    width: 150px;
+    height: 150px;
+}
+
+#team-main-container p {
+    color: rgb(150, 150, 150);
+    font-weight: 100;
+}
+
+#team-main-container h2 {
+    font-weight: 200;
+}
+
+#team-main-container h4 {
+    font-weight: 100;
+}
+
+#team-main-container small {
+    font-weight: 100;
+}
+
+.team-player {
+    padding: 60px 10px;
+    padding-top: 0px;
+}
+
+.my-text-blue {
+    color: #1e74ff;
+}

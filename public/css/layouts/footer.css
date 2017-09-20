@@ -1,0 +1,19 @@
+#footer-main-container {
+    background-color: rgb(255, 255, 255);
+    padding: 40px 40px;
+    margin: 0;
+}
+
+#footer-main-container h4 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#footer-main-container h5 {
+    font-size: 11px;
+    font-weight: 100;
+}
+
+#my-copyright {
+    color: rgb(150, 150, 150);
+}

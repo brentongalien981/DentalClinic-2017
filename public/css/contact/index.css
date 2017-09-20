@@ -1,0 +1,90 @@
+#contact-main-container {
+    /*background-color: lavenderblush;*/
+    padding: 0px 40px;
+    /*padding-top: 80px;*/
+    /*padding-bottom: -30px;*/
+    /*margin-bottom: -30px;*/
+    /*background-color: white;*/
+}
+
+#message-form-container {
+    /*background-color: rgb(224, 224, 224);*/
+    /*background-color: rgb(250, 250, 250);*/
+    background-color: rgb(244, 255, 245);
+    padding: 150px 40px;
+    /*padding-left: 40px;*/
+    /*padding-right: 40px;*/
+
+}
+
+#map {
+    margin-top: 0;
+    height: 700px;
+    width: 100%;
+    /*opacity: 0.3;*/
+}
+
+#contact-main-container i {
+    font-size: 20px;
+}
+
+#email-form {
+    /*margin: 0;*/
+    /*padding: 0;*/
+
+}
+
+#email-form .card {
+    box-shadow: 0px 10px 20px rgb(120, 120, 120);
+}
+
+#contact-title {
+    /*margin-bottom: 80px;*/
+}
+
+.my-contact-details {
+    /*background-color: rgb(249, 249, 249);*/
+    box-shadow: none;
+
+}
+
+#my-contact-content {
+    /*left: 0px;*/
+    width: 100%;
+    padding: 30px 30px;
+    font-weight: 100;
+    font-size: 14px;
+    /*margin-right: 100px;*/
+}
+
+
+
+#my-contact-content h4 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#my-contact-content div {
+    margin-bottom: 15px;
+}
+
+#contact-details-container {
+    /*position: absolute;*/
+    /*z-index: 5;*/
+    /*opacity: 1;*/
+    margin-top: 80px;
+    /*margin-left: 0px;*/
+
+}
+
+#contact-details-container .card {
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+#contact-us-title {
+    padding: 5px 40px;
+    border-radius: 13px;
+    margin-left: 10px;
+    background-color: white;
+    color: blue;
+}

@@ -1,0 +1,53 @@
+#testimonials-main-container {
+    background-color: rgb(249, 249, 249);
+    padding: 80px 40px;
+    padding-bottom: 200px;
+    /*background-color: rgb(100, 100, 100);*/
+    background-color: white;
+}
+
+p q {
+    font-style: italic;
+}
+
+.testimonial-text-container {
+    background-color: rgba(120, 120, 120, 0.7);
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+    background-color: rgb(235, 235, 235);
+
+    /*!*#29e557*!*/
+    /*background: #4ae71f; !* For browsers that do not support gradients *!*/
+    /*background: -webkit-linear-gradient(left, #4ae71f, #29e557); !* For Safari 5.1 to 6.0 *!*/
+    /*background: -o-linear-gradient(right, #4ae71f, #29e557); !* For Opera 11.1 to 12.0 *!*/
+    /*background: -moz-linear-gradient(right, #4ae71f, #29e557); !* For Firefox 3.6 to 15 *!*/
+    /*background: linear-gradient(to right, #4ae71f, #29e557); !* Standard syntax *!*/
+
+    /*box-shadow: ;*/
+    /*padding-bottom: -30px;*/
+}
+
+.testimonial-text {
+
+    /*text-shadow: 1px 1px 1px rgb(1, 1, 1);*/
+    font-size: 90%;
+}
+
+/*#pinterest-style-container {*/
+/*box-shadow: none;*/
+/*}*/
+
+#testimonials-main-container .card {
+    box-shadow: none;
+}
+
+#testimonials-main-container .card img {
+    box-shadow: none;
+    margin-bottom: 20px;
+}
+
+#testimonials-main-container .carousel-indicators {
+    margin-bottom: -40px;
+}

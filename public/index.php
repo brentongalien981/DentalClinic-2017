@@ -1,0 +1,25 @@
+<?php require_once("/Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/layouts/header.php"); ?>
+
+<!--css-->
+<link href="<?= LOCAL . "public/css/index.css"; ?>" rel="stylesheet">
+
+
+<!--Menus-->
+<?php require_once(PUBLIC_PATH . "view/company-info/index.php"); ?>
+<?php require_once(PUBLIC_PATH . "view/services/index.php"); ?>
+<?php require_once(PUBLIC_PATH . "view/about/index.php"); ?>
+<?php require_once(PUBLIC_PATH . "view/team/index.php"); ?>
+<?php require_once(PUBLIC_PATH . "view/testimonials/index.php"); ?>
+<?php require_once(PUBLIC_PATH . "view/contact/index.php"); ?>
+
+<!--@include('footer')-->
+
+
+
+
+<!--js-->
+<script src="<?= LOCAL . "public/js/index/event_listeners.js"; ?>"></script>
+
+
+<!--footer-->
+<?php require_once(PUBLIC_PATH . "layouts/footer.php"); ?>

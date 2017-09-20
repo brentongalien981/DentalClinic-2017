@@ -1,0 +1,15 @@
+.my-container {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#home-icon {
+    font-size: 25px;
+    color: white;
+    padding-top: 11px;
+    /*padding-left: 10px;*/
+}
+
+.navbar-success {
+    /*opacity: 0.95;*/
+}
