@@ -69,6 +69,10 @@
 
 </div><!--<div id="my-wrapper">-->
 
+
+<!--Widgets-->
+<?php require_once(PUBLIC_PATH . "view/widgets/index.php"); ?>
+
 </body>
 
 </html>

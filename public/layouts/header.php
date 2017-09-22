@@ -1,4 +1,5 @@
 <?php require_once("/Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/private/includes/initializations.php"); ?>
+<?php //require_once("/home/ball721/private/includes/initializations.php"); ?>
 
 <!doctype html>
 <html lang="en">

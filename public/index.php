@@ -1,4 +1,5 @@
 <?php require_once("/Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/layouts/header.php"); ?>
+<?php //require_once("/home/ball721/public_html/layouts/header.php"); ?>
 
 <!--css-->
 <link href="<?= LOCAL . "public/css/index.css"; ?>" rel="stylesheet">
