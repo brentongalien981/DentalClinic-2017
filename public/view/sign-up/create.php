@@ -2,16 +2,29 @@
 <link href="<?= LOCAL . "public/css/sign-up/create.css"; ?>" rel="stylesheet" type="text/css">
 
 
-<form id="sign-up-form" method="post"  class="section">
-    <h4>Sign-up</h4>
+<?php //require_once(PUBLIC_PATH . "view/about/index.php"); ?>
+<?php //require_once(PUBLIC_PATH . "view/team/index.php"); ?>
 
-    <h5>Username</h5>
-    <input id="user_name" type="text" name="user_name" class="form_text_input">
-    <label class="error_msg" id="error_msg_username"></label>
+<?php //for ($i = 0; $i < 5; $i++) {?>
 
-    <h5>Password</h5>
-    <input id="password" type="password" name="password" class="form_text_input">
-    <label class="error_msg" id="error_msg_password"></label><br>
+<div id="page-banner">
+    <img src="<?= LOCAL . "public/img/clinic2.jpg"; ?>">
+</div>
 
-    <input id="sign-up-button" type="button" value="sign-up" class="form_button">
-</form>
+<div class="container-fluid" id="sign-up-form-container">
+    <form id="sign-up-form" method="post" class="section">
+        <h4>Sign-up</h4>
+
+        <h5>Username</h5>
+        <input id="username" type="text" class="form_text_input">
+        <label class="error-msg" id="error_username"></label>
+
+        <h5>Password</h5>
+        <input id="password" type="password" class="form_text_input">
+        <label class="error-msg" id="error_password"></label><br>
+
+        <input id="sign-up-button" type="button" value="sign-up" class="form_button">
+    </form>
+</div>
+
+<?php //} ?>

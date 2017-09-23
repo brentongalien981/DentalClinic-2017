@@ -2,7 +2,7 @@
 <?php //require_once("/home/ball721/public_html/layouts/header.php"); ?>
 
 <!--css-->
-<link href="<?= LOCAL . "public/css/index.css"; ?>" rel="stylesheet">
+
 
 
 <!--Menus-->
@@ -12,8 +12,6 @@
 <?php require_once(PUBLIC_PATH . "view/team/index.php"); ?>
 <?php require_once(PUBLIC_PATH . "view/testimonials/index.php"); ?>
 <?php require_once(PUBLIC_PATH . "view/contact/index.php"); ?>
-
-<!--@include('footer')-->
 
 
 

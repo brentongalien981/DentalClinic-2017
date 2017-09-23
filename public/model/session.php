@@ -12,7 +12,7 @@ class Session {
     private $logged_in = false;
     public $actual_user_id;
     public $actual_user_name;
-    public $actual_user_type_id;
+//    public $actual_user_type_id;
     public $currently_viewed_user_id;
     public $currently_viewed_user_name;
     public $cart_id;
@@ -70,12 +70,12 @@ class Session {
         if ($user) {
 //            $_SESSION["my_static_counter"] = 0;
 
-            $this->actual_user_id = $_SESSION["actual_user_id"] = $user->user_id;
-            $this->actual_user_name = $_SESSION["actual_user_name"] = $user->user_name;
-            $this->actual_user_type_id = $_SESSION["actual_user_type_id"] = $user->user_type_id;
+            $this->actual_user_id = $_SESSION["actual_user_id"] = $user->id;
+            $this->actual_user_name = $_SESSION["actual_user_name"] = $user->username;
+//            $this->actual_user_type_id = $_SESSION["actual_user_type_id"] = $user->user_type_id;
 
-            $this->currently_viewed_user_id = $_SESSION["currently_viewed_user_id"] = $user->user_id;
-            $this->currently_viewed_user_name = $_SESSION["currently_viewed_user_name"] = $user->user_name;
+            $this->currently_viewed_user_id = $_SESSION["currently_viewed_user_id"] = $user->id;
+            $this->currently_viewed_user_name = $_SESSION["currently_viewed_user_name"] = $user->username;
 
             $this->logged_in = true;
 
@@ -87,7 +87,7 @@ class Session {
     public function logout() {
         unset($_SESSION["actual_user_id"]);
         unset($_SESSION["actual_user_name"]);
-        unset($_SESSION["actual_user_type_id"]);
+//        unset($_SESSION["actual_user_type_id"]);
 
         unset($_SESSION["currently_viewed_user_id"]);
         unset($_SESSION["currently_viewed_user_name"]);
@@ -100,7 +100,7 @@ class Session {
 
         unset($this->actual_user_id);
         unset($this->actual_user_name);
-        unset($this->actual_user_type_id);
+//        unset($this->actual_user_type_id);
 
         unset($this->currently_viewed_user_id);
         unset($this->currently_viewed_user_name);
@@ -127,7 +127,7 @@ class Session {
         if (isset($_SESSION["actual_user_id"])) {
             $this->actual_user_id = $_SESSION["actual_user_id"];
             $this->actual_user_name = $_SESSION["actual_user_name"];
-            $this->actual_user_type_id = $_SESSION["actual_user_type_id"];
+//            $this->actual_user_type_id = $_SESSION["actual_user_type_id"];
 
             $this->currently_viewed_user_id = $_SESSION["currently_viewed_user_id"];
             $this->currently_viewed_user_name = $_SESSION["currently_viewed_user_name"];
@@ -146,7 +146,7 @@ class Session {
         } else {
             unset($this->actual_user_id);
             unset($this->actual_user_name);
-            unset($this->actual_user_type_id);
+//            unset($this->actual_user_type_id);
 
             unset($this->currently_viewed_user_id);
             unset($this->currently_viewed_user_name);

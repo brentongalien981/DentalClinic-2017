@@ -31,16 +31,20 @@ session_start();
 // load config file first
 require_once(PRIVATE_PATH . 'includes/config.php');
 
+
+
+// Helper Functions.
 //require_once(PRIVATE_PATH . "includes/functions_helper/functions_general.php");
 //require_once(PRIVATE_PATH . "includes/functions_helper/functions_sqli_escape.php");
 //require_once(PRIVATE_PATH . "includes/functions_helper/functions_validation.php");
 //require_once(PRIVATE_PATH . "includes/functions_helper/functions_validation2.php");
 //require_once(PRIVATE_PATH . "includes/functions_helper/functions_xss_sanitize.php");
-//
 //require_once(PRIVATE_PATH . "includes/functions_helper/functions_csrf_request_type.php");
-//require_once(PRIVATE_PATH . "includes/functions_helper/functions_csrf_token.php");
+require_once(PRIVATE_PATH . "helper-functions/csrf.php");
 // load basic functions next so that everything after can use them
 //require_once(LIB_PATH.DS.'functions.php');
+
+
 
 
 require_once(PUBLIC_PATH . 'model/my-database.php');

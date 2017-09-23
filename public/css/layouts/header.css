@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    /*overflow-x: auto;*/
+    /*max-width: 100%;*/
+    overflow-x: hidden;
+}
+
+#my-wrapper {
+    margin: 0;
+    padding: 0;
+    /*min-width: 640px;*/
+}
+
+#header-descriptions button a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    /*width: 100%;*/
+    /*float: left;*/
+    /*clear: both;*/
+    /*margin-bottom: -300px;*/
+}
+
+.error-msg {
+    color: red;
+}

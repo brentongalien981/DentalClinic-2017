@@ -1,3 +1,7 @@
+<?php require_once("/Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/layouts/header.php"); ?>
+
+
+<!--Main contents-->
 <?php require_once(PUBLIC_PATH . "view/sign-up/create.php"); ?>
 
 
@@ -7,18 +11,19 @@
 
 
 <!--Scripts-->
-<!--<script src="--><?//= LOCAL . "js/sign-up/instance_vars.js"; ?><!--"></script>-->
-<!--<script src="--><?//= LOCAL . "js/sign-up/general_functions.js"; ?><!--"></script>-->
-<!--<script src="--><?//= LOCAL . "js/sign-up/general_functions2.js"; ?><!--"></script>-->
-<!--<script src="--><?//= LOCAL . "js/sign-up/general_functions3.js"; ?><!--"></script>-->
-<!--<script src="--><?//= LOCAL . "js/sign-up/create.js"; ?><!--"></script>-->
-<!--<script src="--><?//= LOCAL . "js/sign-up/read.js"; ?><!--"></script>-->
-<!--<script src="--><?//= LOCAL . "js/sign-up/update.js"; ?><!--"></script>-->
-<!--<script src="--><?//= LOCAL . "js/sign-up/delete.js"; ?><!--"></script>-->
-<!--<script src="--><?//= LOCAL . "js/sign-up/Photo.js"; ?><!--"></script>-->
-<!--<script src="--><?//= LOCAL . "js/sign-up/event_listeners.js"; ?><!--"></script>-->
-<!--<script src="--><?//= LOCAL . "js/sign-up/event_listeners2.js"; ?><!--"></script>-->
-<!--<script src="--><?//= LOCAL . "js/sign-up/tasks.js"; ?><!--"></script>-->
+<!--<script src="--><?//= LOCAL . "public/js/sign-up/instance_vars.js"; ?><!--"></script>-->
+<script src="<?= LOCAL . "public/js/sign-up/general_functions.js"; ?>"></script>
+<!--<script src="--><?//= LOCAL . "public/js/sign-up/general_functions2.js"; ?><!--"></script>-->
+<!--<script src="--><?//= LOCAL . "public/js/sign-up/general_functions3.js"; ?><!--"></script>-->
+<script src="<?= LOCAL . "public/js/sign-up/create.js"; ?>"></script>
+<!--<script src="--><?//= LOCAL . "public/js/sign-up/read.js"; ?><!--"></script>-->
+<!--<script src="--><?//= LOCAL . "public/js/sign-up/update.js"; ?><!--"></script>-->
+<!--<script src="--><?//= LOCAL . "public/js/sign-up/delete.js"; ?><!--"></script>-->
+<script src="<?= LOCAL . "public/js/sign-up/User.js"; ?>"></script>
+<script src="<?= LOCAL . "public/js/sign-up/event_listeners.js"; ?>"></script>
+<!--<script src="--><?//= LOCAL . "public/js/sign-up/event_listeners2.js"; ?><!--"></script>-->
+<script src="<?= LOCAL . "public/js/sign-up/event_handlers.js"; ?>"></script>
+<!--<script src="--><?//= LOCAL . "public/js/sign-up/tasks.js"; ?><!--"></script>-->
 
 
 
@@ -36,5 +41,5 @@
 
 
 
-<!--Footer-->
-<?php //include(PUBLIC_PATH . "/_layouts/footer.php"); ?>
+<!--footer-->
+<?php require_once(PUBLIC_PATH . "layouts/footer.php"); ?>

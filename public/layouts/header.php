@@ -27,6 +27,7 @@
 
 
     <!--   Core JS Files   -->
+    <!--    <script src="--><? //= LOCAL . "private/external_lib/jquery-3.2.1.js"; ?><!--"></script>-->
     <script src="<?= LOCAL . "public/js/jquery.min.js"; ?>" type="text/javascript"></script>
     <script src="<?= LOCAL . "public/js/bootstrap.min.js"; ?>" type="text/javascript"></script>
     <script src="<?= LOCAL . "public/js/material.min.js"; ?>"></script>
@@ -49,6 +50,12 @@
 
     <!--    My Shits-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="<?= LOCAL . "public/css/layouts/header.css"; ?>" rel="stylesheet">
+
+
+    <?php require_once(PUBLIC_PATH . "js/my-main-helper.php"); ?>
+    <script src="<?= LOCAL . "public/js/my-main-script.js"; ?>"></script>
+    <script src="<?= LOCAL . "public/js/my-main-script2.js"; ?>"></script>
 
     <script src="<?= LOCAL . "public/js/layouts/event_listeners.js"; ?>"></script>
 
@@ -58,13 +65,11 @@
 
 <!---->
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-
+<div id="random-placeholder"></div>
 
 
 <!---->
 <?php require_once(PUBLIC_PATH . "layouts/navigation.php"); ?>
-
-
 
 
 <!---->
