@@ -34,7 +34,7 @@ require_once(PRIVATE_PATH . 'includes/config.php');
 
 
 // Helper Functions.
-//require_once(PRIVATE_PATH . "includes/functions_helper/functions_general.php");
+require_once(PRIVATE_PATH . "helper-functions/general.php");
 //require_once(PRIVATE_PATH . "includes/functions_helper/functions_sqli_escape.php");
 //require_once(PRIVATE_PATH . "includes/functions_helper/functions_validation.php");
 //require_once(PRIVATE_PATH . "includes/functions_helper/functions_validation2.php");

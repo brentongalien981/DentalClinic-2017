@@ -27,3 +27,8 @@ footer {
 .error-msg {
     color: red;
 }
+
+.generic-section {
+    padding: 30px;
+    margin: 100px 20px;
+}

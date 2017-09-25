@@ -13,7 +13,7 @@
                 <span class="icon-bar"></span>
             </button>
 
-            <a href="#">
+            <a href="<?= LOCAL . "public/index.php"; ?>">
                 <i id="home-icon" class="fa fa-home"></i>
             </a>
 

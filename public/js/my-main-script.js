@@ -60,6 +60,8 @@ function decideAjaxAfterEffectsClassHandlers(x_obj, json) {
         case "Login":
             doLoginAfterEffects(class_name, crud_type, json);
             break;
+        case "ChatThread":
+            doChatThreadAfterEffects(class_name, crud_type, json);
         case "zZz":
             break;
     }

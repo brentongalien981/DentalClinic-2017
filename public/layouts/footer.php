@@ -30,9 +30,9 @@
 
         <div class="col-sm-2">
             <h4>Forms</h4>
-            <h5>abcdefg</h5>
             <h5><a href="<?= LOCAL . "public/view/login/index.php"; ?>">Log-in</a></h5>
             <h5><a href="<?= LOCAL . "public/view/sign-up/index.php"; ?>">Sign-up</a></h5>
+            <h5><a href="<?= LOCAL . "public/controller/LogoutController.php"; ?>">Log-out</a></h5>
         </div>
 
 

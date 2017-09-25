@@ -1,0 +1,21 @@
+#the-widget-container {
+    width: 370px;
+    /*height: 50px;*/
+    background-color: orange;
+    border-radius: 5px;
+    float: right;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    z-index: 5;
+    /*padding-bottom: 20px;*/
+}
+
+
+.widget-menu-bar {
+    float: left;
+    display: inline-block;
+
+}

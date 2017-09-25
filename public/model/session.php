@@ -93,8 +93,8 @@ class Session {
         unset($_SESSION["currently_viewed_user_name"]);
 
 
-//        // Chat.
-//        unset($_SESSION["chat_thread_id"]);
+        // Chat.
+        unset($_SESSION["chat_thread_id"]);
 
 
 
@@ -135,11 +135,13 @@ class Session {
             $this->logged_in = true;
 
 
-//            // Chat.
-//            if (isset($_SESSION["chat_thread_id"])) {
+            // Chat.
+            if (isset($_SESSION["chat_thread_id"])) {
+                //
+                $this->set_chat_thread_id($_SESSION["chat_thread_id"]);
 //                $this->chat_thread_id = $_SESSION["chat_thread_id"];
-////                $this->chat_with_user_id = $_SESSION["chat_with_user_id"];
-//            }
+//                $this->chat_with_user_id = $_SESSION["chat_with_user_id"];
+            }
 
 
 

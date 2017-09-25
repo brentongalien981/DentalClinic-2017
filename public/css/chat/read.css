@@ -1,0 +1,7 @@
+#chat-widget {
+    width: 390px;
+    max-width: 390px;
+}
+.chat-widget-header-bar-icons {
+    font-size: 14px;
+}
