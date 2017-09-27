@@ -18,6 +18,7 @@ class MyController
 
     public function __construct()
     {
+
         $this->validator = new Validator();
     }
 
@@ -29,6 +30,7 @@ class MyController
         $this->isValidationOk = $this->validator->validate();
 
         $this->errorsArray = $this->validator->get_json_errors_array();
+        $this->json = $this->errorsArray;
 
         //
         if ($this->isValidationOk) {

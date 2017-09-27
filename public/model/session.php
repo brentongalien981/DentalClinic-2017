@@ -25,6 +25,11 @@ class Session {
 
     function __construct() {
 
+        // Initializations for all kinds of users, specifically anonymous ones..
+        $this->default_initialize();
+
+
+        // Initializations for users that actually has db records.
         $this->check_login();
 
         if ($this->logged_in) {
@@ -32,6 +37,10 @@ class Session {
         } else {
 // actions to take right away if user is not logged in
         }
+    }
+
+    private function default_initialize() {
+        if (isset($_SESSION["chat_thread_id"])) { $this->set_chat_thread_id($_SESSION["chat_thread_id"]); }
     }
 
     public function set_chat_thread_id($chat_thread_id) {

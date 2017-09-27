@@ -62,6 +62,10 @@ function decideAjaxAfterEffectsClassHandlers(x_obj, json) {
             break;
         case "ChatThread":
             doChatThreadAfterEffects(class_name, crud_type, json);
+            break;
+        case "ChatMessage":
+            doChatMessageAfterEffects(class_name, crud_type, json);
+            break;
         case "zZz":
             break;
     }

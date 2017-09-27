@@ -16,20 +16,20 @@
 
 
 <!--Scripts-->
-<!--<script src="--><?php //echo LOCAL . "/public/_scripts/chat/instance_vars.js"; ?><!--"></script>-->
-<!--<script src="--><?php //echo LOCAL . "/public/_scripts/chat/general_functions.js"; ?><!--"></script>-->
-<!--    <script src="--><?php //echo LOCAL . "/public/_scripts/chat/general_functions2.js"; ?><!--"></script>-->
-<!--    <script src="--><?php //echo LOCAL . "/public/_scripts/chat/general_functions3.js"; ?><!--"></script>-->
-<!--<script src="--><?php //echo LOCAL . "/public/_scripts/chat/create.js"; ?><!--"></script>-->
-<!--<script src="--><?php //echo LOCAL . "/public/_scripts/chat/read.js"; ?><!--"></script>-->
-<!--    <script src="--><?php //echo LOCAL . "/public/_scripts/chat/update.js"; ?><!--"></script>-->
-<!--    <script src="--><?php //echo LOCAL . "/public/_scripts/chat/delete.js"; ?><!--"></script>-->
-<!--<script src="--><?php //echo LOCAL . "/public/_scripts/chat/fetch.js"; ?><!--"></script>-->
-<!--<script src="--><?php //echo LOCAL . "/public/_scripts/chat/ChatMessage.js"; ?><!--"></script>-->
-<!--<script src="--><?php //echo LOCAL . "/public/_scripts/chat/event_listeners.js"; ?><!--"></script>-->
-<!--    <script src="--><?php //echo LOCAL . "/public/_scripts/chat/event_listeners2.js"; ?><!--"></script>-->
-<!--<script src="--><?php //echo LOCAL . "/public/_scripts/chat/event_handlers.js"; ?><!--"></script>-->
-<!--<script src="--><?php //echo LOCAL . "/public/_scripts/chat/tasks.js"; ?><!--"></script>-->
+<!--<script src="--><?php //echo LOCAL . "public/js/chat/instance_vars.js"; ?><!--"></script>-->
+<!--<script src="--><?php //echo LOCAL . "public/js/chat/general_functions.js"; ?><!--"></script>-->
+<!--    <script src="--><?php //echo LOCAL . "public/js/chat/general_functions2.js"; ?><!--"></script>-->
+<!--    <script src="--><?php //echo LOCAL . "public/js/chat/general_functions3.js"; ?><!--"></script>-->
+<!--<script src="--><?php //echo LOCAL . "public/js/chat/create.js"; ?><!--"></script>-->
+<script src="<?php echo LOCAL . "public/js/chat/read.js"; ?>"></script>
+<!--    <script src="--><?php //echo LOCAL . "public/js/chat/update.js"; ?><!--"></script>-->
+<!--    <script src="--><?php //echo LOCAL . "public/js/chat/delete.js"; ?><!--"></script>-->
+<!--<script src="--><?php //echo LOCAL . "public/js/chat/fetch.js"; ?><!--"></script>-->
+<!--<script src="--><?php //echo LOCAL . "public/js/chat/ChatMessage.js"; ?><!--"></script>-->
+<script src="<?php echo LOCAL . "public/js/chat/event_listeners.js"; ?>"></script>
+<!--    <script src="--><?php //echo LOCAL . "public/js/chat/event_listeners2.js"; ?><!--"></script>-->
+<!--<script src="--><?php //echo LOCAL . "public/js/chat/event_handlers.js"; ?><!--"></script>-->
+<!--<script src="--><?php //echo LOCAL . "public/js/chat/tasks.js"; ?><!--"></script>-->
 
 
 

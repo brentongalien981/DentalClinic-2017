@@ -17,6 +17,70 @@ class ChatThread extends MyModel
         parent::$searchable_fields = null;
     }
 
+    public static function read()
+    {
+        global $session;
+        global $database;
+
+        $q = "SELECT * FROM " . self::$table_name;
+        $q .= " WHERE fascilitator_user_id = {$session->actual_user_id}";
+        $q .= " ORDER BY date_created ASC";
+
+        //
+        $record_results = parent::readByQuery($q);
+
+
+        $array_of_objs = array();
+
+        while ($row = $database->fetch_array($record_results)) {
+            $an_obj = array(
+                "id" => $row["id"],
+                "fascilitator_user_id" => $row["fascilitator_user_id"],
+                "is_deleted" => $row["is_deleted"],
+                "date_created" => $row["date_created"]
+            );
+
+            //
+            array_push($array_of_objs, $an_obj);
+        }
+
+        return $array_of_objs;
+
+    }
+
+    public static function fetch($data)
+    {
+        global $session;
+        global $database;
+        $d = $data;
+
+        $q = "SELECT * FROM " . self::$table_name;
+        $q .= " WHERE fascilitator_user_id = {$session->actual_user_id}";
+        $q .= " AND date_created > '{$d['latest_chat_thread_date']}'";
+        $q .= " ORDER BY date_created ASC";
+
+        //
+        $record_results = parent::readByQuery($q);
+
+
+        $array_of_objs = array();
+
+        while ($row = $database->fetch_array($record_results)) {
+            $an_obj = array(
+                "id" => $row["id"],
+                "fascilitator_user_id" => $row["fascilitator_user_id"],
+                "is_deleted" => $row["is_deleted"],
+                "date_created" => $row["date_created"]
+            );
+
+            //
+            array_push($array_of_objs, $an_obj);
+        }
+
+        return $array_of_objs;
+
+    }
+
 
     public static function is_there_available_thread_id()
     {

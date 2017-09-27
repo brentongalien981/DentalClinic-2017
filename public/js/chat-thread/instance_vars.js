@@ -1,0 +1,1 @@
+var chat_thread_fetch_handler = null;

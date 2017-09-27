@@ -5,3 +5,7 @@
 .chat-widget-header-bar-icons {
     font-size: 14px;
 }
+
+#chat-pod-section {
+    display: none;
+}

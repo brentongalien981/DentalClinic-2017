@@ -1,0 +1,1 @@
+initialize_fetch_chat_messages();
