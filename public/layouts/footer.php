@@ -1,3 +1,4 @@
+<input type="hidden" id="new-csrf-token" value="<?= sessionize_csrf_token(); ?>">
 <footer class="container-fluid" id="footer-main-container">
     <div class="row">
 

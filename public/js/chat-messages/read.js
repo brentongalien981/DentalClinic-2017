@@ -4,7 +4,8 @@ function read_chat_messages() {
 
 
     var key_value_pairs = {
-        read: "yes"
+        read: "yes",
+        chat_thread_id: chat_thread_id
     };
 
 

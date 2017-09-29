@@ -18,7 +18,8 @@ function fetch_chat_messages() {
     var request_type = "GET";
     var key_value_pairs = {
         fetch : "yes",
-        latest_chat_message_date: latest_chat_message_date
+        latest_chat_message_date: latest_chat_message_date,
+        chat_thread_id: chat_thread_id
     };
 
 

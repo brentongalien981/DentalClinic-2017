@@ -10,7 +10,8 @@ function create_chat_message() {
 
     var key_value_pairs = {
         create: "yes",
-        message: chat_msg
+        message: chat_msg,
+        chat_thread_id: chat_thread_id
     };
 
     var obj = new ChatMessage(crud_type, request_type, key_value_pairs);

@@ -28,9 +28,25 @@ class ChatMessageController extends MyController
 
         }
         else if (isset($_GET["read"]) && $_GET["read"] == "yes") {
-            $this->json["objs"] = $this->read();
-            $this->json["actual_user_id"] = $session->is_logged_in() ? $session->actual_user_id : -69;
-            $this->json["is_result_ok"] = true;
+            if ($session->is_logged_in()) {
+
+                $this->initialize_validation("read");
+                $this->tryValidate();
+
+                if ($this->isValidationOk) {
+                    $this->json["objs"] = $this->read();
+                    $this->json["actual_user_id"] = $session->is_logged_in() ? $session->actual_user_id : -69;
+                    $this->json['is_result_ok'] = true;
+                } else {
+                    $this->json['is_result_ok'] = false;
+                }
+            }
+            else {
+                $this->json["objs"] = $this->read();
+                $this->json["actual_user_id"] = $session->is_logged_in() ? $session->actual_user_id : -69;
+                $this->json['is_result_ok'] = true;
+            }
+
         }
         else if (isset($_POST["update"]) && $_POST["update"] == "yes") {}
         else if (isset($_POST["delete"]) && $_POST["delete"] == "yes") {}
@@ -56,7 +72,7 @@ class ChatMessageController extends MyController
     }
 
     private function read() {
-        return ChatMessage::read();
+        return ChatMessage::read($this->sanitizedVars);
     }
 
     private function fetch() {
@@ -70,7 +86,14 @@ class ChatMessageController extends MyController
         //
         $cm = new ChatMessage();
         $cm->id = null;
-        $cm->chat_thread_id = $session->chat_thread_id;
+
+        if ($session->is_logged_in()) {
+            $cm->chat_thread_id = $s['chat_thread_id'];
+        }
+        else {
+            $cm->chat_thread_id = $session->chat_thread_id;
+        }
+
         $cm->chatter_user_id = $session->is_logged_in() ? $session->actual_user_id : "null";
 //        $cm->date_posted = null;
         $cm->message = $s["message"];
@@ -90,20 +113,35 @@ class ChatMessageController extends MyController
         switch ($crud_type) {
             case "create":
                 $this->allowedAssocIndexes = array(
-                    "message"
+                    "message",
+                    "chat_thread_id"
                 );
 
                 $this->requiredVarsLengthArray = array(
-                    "message" => ["min" => 1, "max" => 2048]
+                    "message" => ["min" => 1, "max" => 2048],
+                    "chat_thread_id" => ["min" => 1, "max" => 11]
                 );
+                break;
+            case "read":
+                $this->allowedAssocIndexes = array(
+                    "chat_thread_id"
+                );
+
+                $this->requiredVarsLengthArray = array(
+                    "chat_thread_id" => ["min" => 1, "max" => 11]
+                );
+
+                $this->validator->set_request_type("get");
                 break;
             case "fetch":
                 $this->allowedAssocIndexes = array(
-                    "latest_chat_message_date"
+                    "latest_chat_message_date",
+                    "chat_thread_id"
                 );
 
                 $this->requiredVarsLengthArray = array(
-                    "latest_chat_message_date" => ["min" => 19, "max" => 20]
+                    "latest_chat_message_date" => ["min" => 19, "max" => 20],
+                    "chat_thread_id" => ["min" => 1, "max" => 11]
                 );
 
                 $this->validator->set_request_type("get");

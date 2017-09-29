@@ -9,3 +9,8 @@
 #chat-pod-section {
     display: none;
 }
+
+#chat-wall {
+    max-height: 300px;
+    overflow-y: auto;
+}

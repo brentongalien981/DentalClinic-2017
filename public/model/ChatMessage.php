@@ -25,13 +25,21 @@ class ChatMessage extends MyModel
         parent::$searchable_fields = null;
     }
 
-    public static function read()
+    public static function read($data)
     {
+        $d = $data;
         global $session;
         global $database;
 
         $q = "SELECT * FROM " . self::$table_name;
-        $q .= " WHERE chat_thread_id = {$session->chat_thread_id}";
+
+        if ($session->is_logged_in()) {
+            $q .= " WHERE chat_thread_id = {$d['chat_thread_id']}";
+        }
+        else {
+            $q .= " WHERE chat_thread_id = {$session->chat_thread_id}";
+        }
+
         $q .= " ORDER BY date_posted ASC";
 
         //
@@ -65,7 +73,14 @@ class ChatMessage extends MyModel
         $s = $sanitized_vars;
 
         $q = "SELECT * FROM " . self::$table_name;
-        $q .= " WHERE chat_thread_id = {$session->chat_thread_id}";
+
+        if ($session->is_logged_in()) {
+            $q .= " WHERE chat_thread_id = {$s['chat_thread_id']}";
+        }
+        else {
+            $q .= " WHERE chat_thread_id = {$session->chat_thread_id}";
+        }
+
         $q .= " AND is_new = 1";
         $q .= " AND date_posted > '{$s['latest_chat_message_date']}'";
         $q .= " ORDER BY date_posted ASC";

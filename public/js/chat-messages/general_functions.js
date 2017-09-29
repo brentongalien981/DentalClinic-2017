@@ -1,7 +1,7 @@
 function doChatMessageAfterEffects(class_name, crud_type, json) {
     switch (crud_type) {
         case "read":
-            window.alert("SUCCESS AJAX. TODO:METHDO: doChatMessageAfterEffects(), switch: read");
+            // window.alert("SUCCESS AJAX. TODO:METHDO: doChatMessageAfterEffects(), switch: read");
 
             // Remove all the old messages.
             $(".chat-message-containers").remove();

@@ -3,8 +3,8 @@ require_once("MyModel.php");
 
 class ChatThread extends MyModel
 {
-    const MAX_NUM_OF_ACTIVE_CHAT_THREADS = 15;
-    const MAX_NUM_OF_ACTIVE_CHAT_THREADS_PER_FASCILITATOR = 5;
+    const MAX_NUM_OF_ACTIVE_CHAT_THREADS = 30;
+    const MAX_NUM_OF_ACTIVE_CHAT_THREADS_PER_FASCILITATOR = 10;
 
 
     public $id;

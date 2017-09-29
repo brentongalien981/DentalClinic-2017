@@ -59,6 +59,10 @@
 
     <script src="<?= LOCAL . "public/js/layouts/event_listeners.js"; ?>"></script>
 
+    <?php if ($session->is_logged_in()) { ?>
+    <?php require_once(PUBLIC_PATH . "view/session/index.php"); ?>
+    <?php } ?>
+
 
 </head>
 

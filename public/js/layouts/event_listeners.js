@@ -24,3 +24,16 @@ $(document).ready(function(){
         } // End if
     });
 })
+
+// $(window").focus(function(){
+//     window.alert("focused");
+// });
+
+window.onfocus = function () {
+    //                window.alert("main content loaded");
+    // console.log("this tab is now focused and active: " + document.getElementById("title").innerHTML);
+    // set_session_currently_viewed_user_id();
+    console.log("focused");
+    refresh_session();
+
+};

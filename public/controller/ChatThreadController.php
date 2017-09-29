@@ -62,6 +62,7 @@ class ChatThreadController extends MyController
     {
         global $session;
 
+        // This chunk is not needed anymore.
         // If it's a dental fascilitator trying to answer a customer's
         // chat request, then do it.
         if ($session->is_logged_in()) {
