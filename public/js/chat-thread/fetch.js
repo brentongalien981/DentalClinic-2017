@@ -4,6 +4,9 @@ function set_chat_thread_fetcher() {
 }
 
 function fetch_chat_threads() {
+    //ish
+    if (is_chat_msg_seen_log_fetching()) { return; }
+
     var latest_chat_thread_date = get_chat_thread_latest_date();
 
     var crud_type = "fetch";

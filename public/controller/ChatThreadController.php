@@ -24,7 +24,8 @@ class ChatThreadController extends MyController
 
                 $this->json['is_result_ok'] = $is_creation_ok;
             }
-        } else if (isset($_GET["read"]) && $_GET["read"] == "yes") {
+        }
+        else if (isset($_GET["read"]) && $_GET["read"] == "yes") {
             // Make sure that the user is a dental fascilitator.
             if (!$session->is_logged_in()) {
                 return;
@@ -32,9 +33,28 @@ class ChatThreadController extends MyController
 
             $this->json["objs"] = $this->read();
             $this->json["is_result_ok"] = true;
-        } else if (isset($_POST["update"]) && $_POST["update"] == "yes") {
-        } else if (isset($_POST["delete"]) && $_POST["delete"] == "yes") {
-        } else if (isset($_GET["fetch"]) && $_GET["fetch"] == "yes") {
+        }
+        else if (isset($_POST["update"]) && $_POST["update"] == "yes") {
+
+            if ($session->is_logged_in()) {
+
+                $this->initialize_validation("update");
+                $this->tryValidate();
+
+                if ($this->isValidationOk) {
+                    $this->json["objs"] = $this->update($this->sanitizedVars);
+
+                    if ($this->json["objs"] != false) { $this->json['is_result_ok'] = true; }
+
+                }
+
+            }
+            else {
+                $this->json['is_user_anonymous'] = true;
+            }
+        }
+        else if (isset($_POST["delete"]) && $_POST["delete"] == "yes") {}
+        else if (isset($_GET["fetch"]) && $_GET["fetch"] == "yes") {
             // Make sure that the user is a dental fascilitator.
             if (!$session->is_logged_in()) {
                 return;
@@ -58,17 +78,21 @@ class ChatThreadController extends MyController
         echo json_encode($this->json);
     }
 
+    private function update() {
+        return ChatThread::update($this->sanitizedVars);
+    }
+
     private function create()
     {
         global $session;
 
-        // This chunk is not needed anymore.
-        // If it's a dental fascilitator trying to answer a customer's
-        // chat request, then do it.
-        if ($session->is_logged_in()) {
-            $session->set_chat_thread_id($this->sanitizedVars["chat_thread_id"]);
-            return true;
-        }
+//        // This chunk is not needed anymore.
+//        // If it's a dental fascilitator trying to answer a customer's
+//        // chat request, then do it.
+//        if ($session->is_logged_in()) {
+//            $session->set_chat_thread_id($this->sanitizedVars["chat_thread_id"]);
+//            return true;
+//        }
 
 
         // Check if the session's chat thread id is set.
@@ -123,6 +147,19 @@ class ChatThreadController extends MyController
                 $this->requiredVarsLengthArray = array(
                     "chat_thread_id" => ["min" => 1, "max" => 11]
                 );
+                break;
+            case "update":
+                $this->allowedAssocIndexes = array(
+                    "chat_thread_id",
+                    "latest_thread_chat_msg_seen_log_date"
+                );
+
+                $this->requiredVarsLengthArray = array(
+                    "chat_thread_id" => ["min" => 1, "max" => 11],
+                    "latest_thread_chat_msg_seen_log_date" => ["min" => 19, "max" => 20]
+                );
+
+                $this->validator->set_request_type("get");
                 break;
             case "fetch":
                 $this->allowedAssocIndexes = array(

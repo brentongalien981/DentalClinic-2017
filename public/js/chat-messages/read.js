@@ -16,6 +16,7 @@ function read_chat_messages() {
 
 function populate_chat_wall(json) {
     var chat_msgs = json.objs;
+    var is_user_anonymous = (json.actual_user_id == -69) ? true : false;
     // var chat_msgs = json["objs"];
 
     var i = 0;
@@ -42,6 +43,17 @@ function populate_chat_wall(json) {
         if (c["chatter_user_id"] != json.actual_user_id) {
             chat_msg_container.classList.add("own-chat-message-containers");
         }
+
+
+        // For customer only...
+        // Only do the update of the # of new chat-msgs if the
+        // user is a customer.
+        var is_msg_from_fascilitator = (c["chatter_user_id"] != -69) ? true : false;
+        if (is_user_anonymous && is_msg_from_fascilitator) {
+            var num_of_new_chat_msgs = 1;
+            pseudo_read_chat_msg_seen_log(num_of_new_chat_msgs);
+        }
+
 
         $(chat_msg_container).append(chat_msg);
         $("#chat-wall").append(chat_msg_container);

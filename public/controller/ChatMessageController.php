@@ -45,6 +45,7 @@ class ChatMessageController extends MyController
                 $this->json["objs"] = $this->read();
                 $this->json["actual_user_id"] = $session->is_logged_in() ? $session->actual_user_id : -69;
                 $this->json['is_result_ok'] = true;
+                $this->json["is_user_anonymous"] = "yes";
             }
 
         }
@@ -58,6 +59,10 @@ class ChatMessageController extends MyController
                 $this->json["objs"] = $this->fetch();
                 $this->json["actual_user_id"] = $session->is_logged_in() ? $session->actual_user_id : -69;
                 $this->json['is_result_ok'] = true;
+            }
+
+            if (!$session->is_logged_in()) {
+                $this->json["is_user_anonymous"] = "yes";
             }
         }
 

@@ -1,5 +1,6 @@
 <?php
 require_once("MyModel.php");
+require_once("ChatMessage.php");
 
 class ChatThread extends MyModel
 {
@@ -33,11 +34,16 @@ class ChatThread extends MyModel
         $array_of_objs = array();
 
         while ($row = $database->fetch_array($record_results)) {
+
+            //
+            $chat_thread_latest_chat_msg_date = ChatMessage::get_chat_thread_latest_chat_msg_date($row["id"]);
+
             $an_obj = array(
                 "id" => $row["id"],
                 "fascilitator_user_id" => $row["fascilitator_user_id"],
                 "is_deleted" => $row["is_deleted"],
-                "date_created" => $row["date_created"]
+                "date_created" => $row["date_created"],
+                "chat_thread_latest_chat_msg_date" => $chat_thread_latest_chat_msg_date
             );
 
             //
@@ -46,6 +52,57 @@ class ChatThread extends MyModel
 
         return $array_of_objs;
 
+    }
+
+    public static function update($data)
+    {
+        global $session;
+        global $database;
+        $d = $data;
+
+        $q = "SELECT * FROM ChatMessage ";
+        $q .= "WHERE chat_thread_id = {$d['chat_thread_id']} ";
+        $q .= "AND date_posted > '{$d['latest_thread_chat_msg_seen_log_date']}' ";
+        $q .= "ORDER BY date_posted ASC LIMIT 1";
+
+        //
+        $record_results = parent::readByQuery($q);
+
+
+
+        // The number of all the unread chat msgs in a chat-thread
+        // relative to one specific user.
+        $num_of_unread_chat_msgs = 0;
+
+        while ($row = $database->fetch_array($record_results)) {
+
+            // If the chat_msg is new..
+            if ($row["is_new"] == 1) {
+                // ..check if it hasn't been seen by the user.
+                $current_chat_msg_id = $row["id"];
+
+                $is_log_creation_ok = null;
+
+
+                // If the user hasn't seen the chat msg, then create
+                // a log record.
+                if (!self::has_user_seen_chat_msg($current_chat_msg_id)) {
+
+                    ++$num_of_unread_chat_msgs;
+                }
+            }
+        }
+
+        //
+        $chat_thread_latest_chat_msg_date = ChatMessage::get_chat_thread_latest_chat_msg_date($d['chat_thread_id']);
+
+        //
+        $array_of_objs = array(
+            "chat_thread_id" => $d["chat_thread_id"],
+            "chat_thread_latest_chat_msg_date" => $chat_thread_latest_chat_msg_date
+        );
+
+        return $array_of_objs;
     }
 
     public static function fetch($data)
@@ -66,11 +123,15 @@ class ChatThread extends MyModel
         $array_of_objs = array();
 
         while ($row = $database->fetch_array($record_results)) {
+            //
+            $chat_thread_latest_chat_msg_date = ChatMessage::get_chat_thread_latest_chat_msg_date($row["id"]);
+
             $an_obj = array(
                 "id" => $row["id"],
                 "fascilitator_user_id" => $row["fascilitator_user_id"],
                 "is_deleted" => $row["is_deleted"],
-                "date_created" => $row["date_created"]
+                "date_created" => $row["date_created"],
+                "chat_thread_latest_chat_msg_date" => $chat_thread_latest_chat_msg_date
             );
 
             //

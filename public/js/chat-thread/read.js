@@ -33,14 +33,29 @@ function populate_chat_list(json) {
 
         //
         var a_chat_thread = document.createElement("li");
+        a_chat_thread.id = "chat-thread" + ct["id"];
         a_chat_thread.classList.add("chat-threads");
         $(a_chat_thread).attr("thread-id", ct["id"]);
         $(a_chat_thread).attr("date-created", ct["date_created"]);
+        $(a_chat_thread).attr("chat-thread-latest-chat-msg-date", ct["chat_thread_latest_chat_msg_date"]);
+        // $(a_chat_thread).attr("is-chat-thread-updating", "no");
+        $(a_chat_thread).attr("is-chat-msg-seen-log-fetching", "no");
+        $(a_chat_thread).attr("is-chat-msg-seen-log-patching", "no");
+        // $(a_chat_thread).attr("is-chat-msg-fetching", "no");
+
+
 
         var num_of_chat_customers = parseInt(chat_threads_el_length) + i + 1;
 
-        $(a_chat_thread).html("Customer " + num_of_chat_customers);
+        var customer_nick_name = document.createElement("h5");
+        $(customer_nick_name).html("Customer " + num_of_chat_customers);
+        $(a_chat_thread).append(customer_nick_name);
 
+
+        var thread_new_msg_count = document.createElement("h5");
+        thread_new_msg_count.id = "thread-new-msg-count-" + ct["id"];
+        thread_new_msg_count.classList.add("thread-new-msg-counts");
+        $(a_chat_thread).append(thread_new_msg_count);
 
 
         // Add a chat button to a chat-thread/customer.

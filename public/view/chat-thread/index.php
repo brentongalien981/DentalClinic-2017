@@ -8,6 +8,7 @@
 <script src="<?php echo LOCAL . "public/js/chat-thread/ChatThread.js"; ?>"></script>
 <script src="<?php echo LOCAL . "public/js/chat-thread/create.js"; ?>"></script>
 <script src="<?php echo LOCAL . "public/js/chat-thread/read.js"; ?>"></script>
+<script src="<?php echo LOCAL . "public/js/chat-thread/update.js"; ?>"></script>
 <script src="<?php echo LOCAL . "public/js/chat-thread/fetch.js"; ?>"></script>
 <script src="<?php echo LOCAL . "public/js/chat-thread/event_handlers.js"; ?>"></script>
 <script src="<?php echo LOCAL . "public/js/chat-thread/event_listeners.js"; ?>"></script>

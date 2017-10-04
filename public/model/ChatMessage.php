@@ -11,6 +11,8 @@ class ChatMessage extends MyModel
     public $is_new;
     private static $table_name = "ChatMessage";
 
+
+
     public function __construct()
     {
         parent::$db_fields = array(
@@ -23,6 +25,37 @@ class ChatMessage extends MyModel
         );
 
         parent::$searchable_fields = null;
+    }
+
+    public static function get_chat_thread_latest_chat_msg_date($thread_id)
+    {
+        global $session;
+        global $database;
+
+
+        $q = "SELECT MAX(date_posted) AS latest_date FROM " . self::$table_name;
+        $q .= " WHERE chat_thread_id = {$thread_id}";
+
+        //
+        $record_results = parent::readByQuery($q);
+
+        while ($row = $database->fetch_array($record_results)) {
+            return $row["latest_date"];
+        }
+
+        return "2010-09-11 10:54:45";
+    }
+
+    public static function set_chat_msg_old($id)
+    {
+
+        $query = "UPDATE ChatMessage ";
+        $query .= "SET is_new = 0 ";
+        $query .= "WHERE id = {$id}";
+
+        $is_update_ok = parent::updateByQuery($query);
+
+        return $is_update_ok;
     }
 
     public static function read($data)
@@ -66,6 +99,18 @@ class ChatMessage extends MyModel
 
     }
 
+    public static function select_by_query($data) {
+        $d = $data;
+
+        $q = "SELECT * FROM " . self::$table_name;
+        $q .= " WHERE chat_thread_id = {$d['chat_thread_id']}";
+        $q .= " AND date_posted <= '{$d['chat_message_latest_date']}'";
+
+        $result_set = parent::readByQuery($q);
+
+        return $result_set;
+    }
+
     public static function fetch($sanitized_vars)
     {
         global $session;
@@ -81,7 +126,7 @@ class ChatMessage extends MyModel
             $q .= " WHERE chat_thread_id = {$session->chat_thread_id}";
         }
 
-        $q .= " AND is_new = 1";
+//        $q .= " AND is_new = 1";
         $q .= " AND date_posted > '{$s['latest_chat_message_date']}'";
         $q .= " ORDER BY date_posted ASC";
 

@@ -26,3 +26,16 @@ function fetch_chat_messages() {
     var obj = new ChatMessage(crud_type, request_type, key_value_pairs);
     obj.fetch();
 }
+
+function is_chat_msg_fetching() {
+    //
+    var chat_threads = $(".chat-threads");
+
+    for (i = 0; i < chat_threads.length; i++) {
+        var is_fetching = $(chat_threads[i]).attr("is-chat-msg-fetching");
+
+        if (is_fetching == "yes") { return true; }
+    }
+
+    return false;
+}

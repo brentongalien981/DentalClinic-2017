@@ -43,6 +43,7 @@
 <?php require_once(PUBLIC_PATH . "view/chat-list/index.php"); ?>
 <?php require_once(PUBLIC_PATH . "view/chat-thread/index.php"); ?>
 <?php require_once(PUBLIC_PATH . "view/chat-messages/index.php"); ?>
+<?php require_once(PUBLIC_PATH . "view/chat-message-seen-log/index.php"); ?>
 
 
 

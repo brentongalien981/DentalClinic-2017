@@ -10,7 +10,14 @@ function doChatMessageAfterEffects(class_name, crud_type, json) {
             show_chat_pod();
             // scroll_chat_wall_to_bottom();
 
+            // For anonymous users only.
+            if (json.is_user_anonymous == "yes") {
+                $("#new-chat-msgs-counter").html(0);
+                $("#new-chat-msgs-counter").css("display", "none");
+            }
+
             can_chat_messages_fetch = true;
+
             break;
         case "create":
             // Clear the textarea.
@@ -22,6 +29,18 @@ function doChatMessageAfterEffects(class_name, crud_type, json) {
             break;
         case "fetch":
             populate_chat_wall(json);
+
+            if (should_chat_msg_seen_logs_update) {
+                if (json.is_user_anonymous == "yes") {
+                    $("#new-chat-msgs-counter").html(0);
+                    $("#new-chat-msgs-counter").css("display", "none");
+                }
+                else {
+                    update_chat_msg_seen_logs();
+                }
+
+                should_chat_msg_seen_logs_update = false;
+            }
             break;
     }
 }

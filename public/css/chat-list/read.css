@@ -1,6 +1,8 @@
 #chat-list {
-     display: none;
- }
+    display: none;
+    max-height: 100px;
+    overflow-y: auto;
+}
 
 #chat-list button {
 }

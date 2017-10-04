@@ -2,10 +2,20 @@ function doChatThreadAfterEffects(class_name, crud_type, json) {
     switch (crud_type) {
         case "read":
             populate_chat_list(json);
+
+            //
+            read_chat_msg_seen_logs();
+            read_chat_messages();
+
+            //
             set_chat_thread_fetcher();
-            // show_chat_list();
+
+            //
+            initilize_patch_chat_msg_seen_logs();
+
             break;
         case "create":
+            // This will just be invoked the the customer-side.
             read_chat_messages();
             break;
         case "update":
@@ -14,6 +24,11 @@ function doChatThreadAfterEffects(class_name, crud_type, json) {
             break;
         case "fetch":
             populate_chat_list(json);
+
+            //
+            // update_chat_threads();
+            fetch_chat_msg_seen_logs();
+            // fetch_chat_messages();
             break;
     }
 }

@@ -12,7 +12,9 @@
 
         </div>
 
-        <div id="chat-widget-status-bar"></div>
+        <div id="chat-widget-status-bar">
+            <h5 id="new-chat-msgs-counter"></h5>
+        </div>
 
         <div id="chat-widget-window-action-bar">
             <i id="expand-chat-pod-icon" class="chat-widget-header-bar-icons fa fa-expand"></i>

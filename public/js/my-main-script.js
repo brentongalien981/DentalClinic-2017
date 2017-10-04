@@ -69,7 +69,11 @@ function decideAjaxAfterEffectsClassHandlers(x_obj, json) {
         case "Session":
             doSessionAfterEffects(class_name, crud_type, json);
             break;
+        case "ChatMsgSeenLog":
+            doChatMsgSeenLogAfterEffects(class_name, crud_type, json);
+            break;
         case "zZz":
+            //
             break;
     }
 }
