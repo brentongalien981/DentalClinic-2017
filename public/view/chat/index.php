@@ -28,8 +28,8 @@
 <!--<script src="--><?php //echo LOCAL . "public/js/chat/ChatMessage.js"; ?><!--"></script>-->
 <script src="<?php echo LOCAL . "public/js/chat/event_listeners.js"; ?>"></script>
 <!--    <script src="--><?php //echo LOCAL . "public/js/chat/event_listeners2.js"; ?><!--"></script>-->
-<!--<script src="--><?php //echo LOCAL . "public/js/chat/event_handlers.js"; ?><!--"></script>-->
-<!--<script src="--><?php //echo LOCAL . "public/js/chat/tasks.js"; ?><!--"></script>-->
+<script src="<?php echo LOCAL . "public/js/chat/event_handlers.js"; ?>"></script>
+<script src="<?php echo LOCAL . "public/js/chat/tasks.js"; ?>"></script>
 
 
 

@@ -7,6 +7,8 @@ $("#chat-list-icon").click(function () {
         $("#chat-list").css("display", "none");
     }
 
+    set_chat_widget_component_borders();
+
     // set_chat_list_borders();
     // set_chat_menu_bar_borders();
     // update_app_settings();

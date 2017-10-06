@@ -6,6 +6,9 @@ function doChatThreadAfterEffects(class_name, crud_type, json) {
             //
             read_chat_msg_seen_logs();
             read_chat_messages();
+            
+            //
+            set_chat_widget_header();
 
             //
             set_chat_thread_fetcher();
@@ -50,4 +53,8 @@ function get_chat_thread_latest_date() {
     else {
         return latest_date;
     }
+}
+
+function set_chat_widget_header() {
+    $("#chat-widget-header-bar").append($("#chat-widget-status-bar"));
 }

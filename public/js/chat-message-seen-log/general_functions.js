@@ -65,7 +65,7 @@ function pseudo_set_chat_msgs_counter(additional_num_of_new_chat_msgs) {
     //
     if (new_num_of_new_chat_msgs > 0) {
         $("#new-chat-msgs-counter").html(new_num_of_new_chat_msgs);
-        $("#new-chat-msgs-counter").css("display", "block");
+        $("#new-chat-msgs-counter").css("display", "inline-block");
 
     }
     else {
@@ -92,7 +92,7 @@ function set_chat_msgs_counter(additional_num_of_new_chat_msgs, thread_id) {
     //
     if (new_num_of_new_chat_msgs > 0) {
         $("#new-chat-msgs-counter").html(new_num_of_new_chat_msgs);
-        $("#new-chat-msgs-counter").css("display", "block");
+        $("#new-chat-msgs-counter").css("display", "inline-block");
 
     }
     else {
@@ -114,7 +114,7 @@ function set_chat_msgs_counter(additional_num_of_new_chat_msgs, thread_id) {
 
     if (new_num_of_thread_new_chat_msgs > 0) {
         $("#thread-new-msg-count-" + thread_id).html(new_num_of_thread_new_chat_msgs);
-        $("#thread-new-msg-count-" + thread_id).css("display", "block");
+        $("#thread-new-msg-count-" + thread_id).css("display", "inline-block");
     }
     else {
         $("#thread-new-msg-count-" + thread_id).html(0);

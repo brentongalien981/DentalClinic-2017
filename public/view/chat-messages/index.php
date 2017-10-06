@@ -1,4 +1,4 @@
-<!--<link href="--><?//= LOCAL . "public/css/chat-messages/index.css"; ?><!--" rel="stylesheet" type="text/css">-->
+<link href="<?= LOCAL . "public/css/chat-messages/index.css"; ?>" rel="stylesheet" type="text/css">
 
 <?php // require_once(PUBLIC_PATH . "view/chat-messages/read.php"); ?>
 <?php // require_once(PUBLIC_PATH . "/__view/chat-messages/delete.php"); ?>

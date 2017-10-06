@@ -2,32 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4412f2f6-5996-4312-8f33-06225cf72e09" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/controller/ChatMsgSeenLogController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/chat-message-seen-log/ChatMsgSeenLog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/chat-message-seen-log/fetch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/chat-message-seen-log/general_functions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/chat-message-seen-log/instance_vars.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/chat-message-seen-log/patch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/chat-message-seen-log/read.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/chat-message-seen-log/update.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/chat-thread/update.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/model/ChatMsgSeenLog.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/view/chat-message-seen-log/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/chat-messages/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/chat/event_handlers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/chat/tasks.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/controller/ChatMessageController.php" afterPath="$PROJECT_DIR$/public/controller/ChatMessageController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/controller/ChatThreadController.php" afterPath="$PROJECT_DIR$/public/controller/ChatThreadController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/chat-list/read.css" afterPath="$PROJECT_DIR$/public/css/chat-list/read.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/chat-messages/fetch.js" afterPath="$PROJECT_DIR$/public/js/chat-messages/fetch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/chat/read.css" afterPath="$PROJECT_DIR$/public/css/chat/read.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/widgets/index.css" afterPath="$PROJECT_DIR$/public/css/widgets/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/chat-list/event_listeners.js" afterPath="$PROJECT_DIR$/public/js/chat-list/event_listeners.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/chat-message-seen-log/general_functions.js" afterPath="$PROJECT_DIR$/public/js/chat-message-seen-log/general_functions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/chat-message-seen-log/patch.js" afterPath="$PROJECT_DIR$/public/js/chat-message-seen-log/patch.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/chat-messages/general_functions.js" afterPath="$PROJECT_DIR$/public/js/chat-messages/general_functions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/chat-messages/read.js" afterPath="$PROJECT_DIR$/public/js/chat-messages/read.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/chat-thread/fetch.js" afterPath="$PROJECT_DIR$/public/js/chat-thread/fetch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/chat-thread/event_handlers.js" afterPath="$PROJECT_DIR$/public/js/chat-thread/event_handlers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/chat-thread/event_listeners.js" afterPath="$PROJECT_DIR$/public/js/chat-thread/event_listeners.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/chat-thread/general_functions.js" afterPath="$PROJECT_DIR$/public/js/chat-thread/general_functions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/chat-thread/read.js" afterPath="$PROJECT_DIR$/public/js/chat-thread/read.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/chat/event_listeners.js" afterPath="$PROJECT_DIR$/public/js/chat/event_listeners.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/my-main-script.js" afterPath="$PROJECT_DIR$/public/js/my-main-script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/model/ChatMessage.php" afterPath="$PROJECT_DIR$/public/model/ChatMessage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/model/ChatThread.php" afterPath="$PROJECT_DIR$/public/model/ChatThread.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/view/chat-thread/index.php" afterPath="$PROJECT_DIR$/public/view/chat-thread/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/chat/read.js" afterPath="$PROJECT_DIR$/public/js/chat/read.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/view/chat-messages/index.php" afterPath="$PROJECT_DIR$/public/view/chat-messages/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/view/chat/index.php" afterPath="$PROJECT_DIR$/public/view/chat/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/view/chat/read.php" afterPath="$PROJECT_DIR$/public/view/chat/read.php" />
     </list>
@@ -53,50 +46,38 @@
     <favorites_list name="Dental" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.4642857">
+    <splitter split-orientation="vertical" split-proportion="0.54831934">
       <split-first>
         <splitter split-orientation="horizontal" split-proportion="0.49603173">
           <split-first>
             <splitter split-orientation="vertical" split-proportion="0.5092593">
               <split-first>
                 <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-                  <file leaf-file-name="general_functions.js" pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/public/js/chat-messages/general_functions.js">
+                  <file leaf-file-name="event_handlers.js" pinned="false" current-in-tab="true">
+                    <entry file="file://$PROJECT_DIR$/public/js/chat-thread/event_handlers.js">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="147">
-                          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+                        <state relative-caret-position="170">
+                          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
                           <folding />
                         </state>
                       </provider>
                     </entry>
                   </file>
                   <file leaf-file-name="event_listeners.js" pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/public/js/chat/event_listeners.js">
+                    <entry file="file://$PROJECT_DIR$/public/js/chat-thread/event_listeners.js">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="45">
-                          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+                        <state relative-caret-position="60">
+                          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
                           <folding />
                         </state>
                       </provider>
                     </entry>
                   </file>
                   <file leaf-file-name="general_functions.js" pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/public/js/chat-message-seen-log/general_functions.js">
+                    <entry file="file://$PROJECT_DIR$/public/js/chat-thread/general_functions.js">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="118">
-                          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-                          <folding>
-                            <element signature="n#!!block;n#set_chat_msgs_counter#0" expanded="false" />
-                          </folding>
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
-                  <file leaf-file-name="patch.js" pinned="false" current-in-tab="true">
-                    <entry file="file://$PROJECT_DIR$/public/js/chat-message-seen-log/patch.js">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="58">
-                          <caret line="93" column="10" lean-forward="true" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
+                        <state relative-caret-position="133">
+                          <caret line="58" column="70" lean-forward="false" selection-start-line="58" selection-start-column="70" selection-end-line="58" selection-end-column="70" />
                           <folding />
                         </state>
                       </provider>
@@ -105,23 +86,35 @@
                 </leaf>
               </split-first>
               <split-second>
-                <leaf>
-                  <file leaf-file-name="read.js" pinned="false" current-in-tab="true">
+                <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+                  <file leaf-file-name="read.js" pinned="false" current-in-tab="false">
                     <entry file="file://$PROJECT_DIR$/public/js/chat-message-seen-log/read.js">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="86">
-                          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+                        <state relative-caret-position="131">
+                          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
                           <folding />
                         </state>
                       </provider>
                     </entry>
                   </file>
-                  <file leaf-file-name="read.js" pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/public/js/chat-messages/read.js">
+                  <file leaf-file-name="read.js" pinned="false" current-in-tab="true">
+                    <entry file="file://$PROJECT_DIR$/public/js/chat-thread/read.js">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="56">
-                          <caret line="53" column="12" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+                        <state relative-caret-position="-24">
+                          <caret line="66" column="47" lean-forward="true" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="47" />
                           <folding />
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                  <file leaf-file-name="fetch.js" pinned="false" current-in-tab="false">
+                    <entry file="file://$PROJECT_DIR$/public/js/chat-message-seen-log/fetch.js">
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="150">
+                          <caret line="35" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+                          <folding>
+                            <element signature="n#!!doc" expanded="true" />
+                          </folding>
                         </state>
                       </provider>
                     </entry>
@@ -138,7 +131,7 @@
                     <entry file="file://$PROJECT_DIR$/public/controller/MyController.php">
                       <provider selected="true" editor-type-id="text-editor">
                         <state relative-caret-position="90">
-                          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+                          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
                           <folding />
                         </state>
                       </provider>
@@ -150,9 +143,9 @@
                         <state relative-caret-position="51">
                           <caret line="58" column="13" lean-forward="false" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
                           <folding>
-                            <marker date="1507149777000" expanded="false" signature="424:434" ph="..." />
-                            <marker date="1507149777000" expanded="false" signature="502:1290" ph="..." />
-                            <marker date="1507149777000" expanded="false" signature="1875:2366" ph="..." />
+                            <element signature="e#365#2838#0#PHP" expanded="false" />
+                            <element signature="e#449#2838#0#PHP" expanded="false" />
+                            <element signature="e#1820#2838#0#PHP" expanded="false" />
                           </folding>
                         </state>
                       </provider>
@@ -161,7 +154,7 @@
                   <file leaf-file-name="SessionController.php" pinned="false" current-in-tab="false">
                     <entry file="file://$PROJECT_DIR$/public/controller/SessionController.php">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="53">
+                        <state relative-caret-position="120">
                           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
                           <folding />
                         </state>
@@ -171,12 +164,12 @@
                 </leaf>
               </split-first>
               <split-second>
-                <leaf>
+                <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
                   <file leaf-file-name="ChatMessageController.php" pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/public/controller/ChatMessageController.php">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="61">
-                          <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+                        <state relative-caret-position="76">
+                          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
                           <folding>
                             <element signature="e#766#1577#0#PHP" expanded="false" />
                           </folding>
@@ -187,8 +180,8 @@
                   <file leaf-file-name="ChatThreadController.php" pinned="false" current-in-tab="false">
                     <entry file="file://$PROJECT_DIR$/public/controller/ChatThreadController.php">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="67">
-                          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+                        <state relative-caret-position="765">
+                          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
                           <folding>
                             <element signature="e#355#2122#0#PHP" expanded="false" />
                             <element signature="e#696#2122#0#PHP" expanded="false" />
@@ -212,11 +205,24 @@
             <splitter split-orientation="vertical" split-proportion="0.5">
               <split-first>
                 <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-                  <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-                    <entry file="file://$PROJECT_DIR$/public/view/chat-message-seen-log/index.php">
+                  <file leaf-file-name="read.php" pinned="false" current-in-tab="true">
+                    <entry file="file://$PROJECT_DIR$/public/view/chat/read.php">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="24">
-                          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                        <state relative-caret-position="33">
+                          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="42" />
+                          <folding>
+                            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+                            <element signature="n#div#2;n#div#0;n#div#0;n#!!top" expanded="false" />
+                          </folding>
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                  <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+                    <entry file="file://$PROJECT_DIR$/public/view/chat-messages/index.php">
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="75">
+                          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
                           <folding />
                         </state>
                       </provider>
@@ -225,32 +231,32 @@
                 </leaf>
               </split-first>
               <split-second>
-                <leaf>
-                  <file leaf-file-name="read.css" pinned="false" current-in-tab="false">
+                <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+                  <file leaf-file-name="read.css" pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/public/css/chat/read.css">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="105">
-                          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                        <state relative-caret-position="88">
+                          <caret line="102" column="17" lean-forward="false" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
                           <folding />
                         </state>
                       </provider>
                     </entry>
                   </file>
-                  <file leaf-file-name="read.css" pinned="false" current-in-tab="true">
+                  <file leaf-file-name="read.css" pinned="false" current-in-tab="false">
                     <entry file="file://$PROJECT_DIR$/public/css/chat-list/read.css">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="15">
-                          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+                        <state relative-caret-position="45">
+                          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
                           <folding />
                         </state>
                       </provider>
                     </entry>
                   </file>
-                  <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/public/view/login/index.php">
+                  <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+                    <entry file="file://$PROJECT_DIR$/public/css/chat-messages/index.css">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="90">
-                          <caret line="6" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+                        <state relative-caret-position="75">
+                          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
                           <folding />
                         </state>
                       </provider>
@@ -267,7 +273,7 @@
                   <file leaf-file-name="MyModel.php" pinned="false" current-in-tab="false">
                     <entry file="file://$PROJECT_DIR$/public/model/MyModel.php">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="18">
+                        <state relative-caret-position="600">
                           <caret line="45" column="27" lean-forward="false" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
                           <folding />
                         </state>
@@ -277,7 +283,7 @@
                   <file leaf-file-name="ChatThread.php" pinned="false" current-in-tab="false">
                     <entry file="file://$PROJECT_DIR$/public/model/ChatThread.php">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="91">
+                        <state relative-caret-position="960">
                           <caret line="64" column="20" lean-forward="false" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
                           <folding>
                             <element signature="n#is_there_available_thread_id#0;n#ChatThread#0;n#!!top" expanded="false" />
@@ -302,7 +308,7 @@
                     <entry file="file://$PROJECT_DIR$/public/model/ChatMsgSeenLog.php">
                       <provider selected="true" editor-type-id="text-editor">
                         <state relative-caret-position="30">
-                          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+                          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
                           <folding>
                             <element signature="n#__construct#0;n#ChatMsgSeenLog#0;n#!!top" expanded="false" />
                             <element signature="n#create#0;n#ChatMsgSeenLog#0;n#!!top" expanded="false" />
@@ -325,7 +331,7 @@
                   <file leaf-file-name="my-database.php" pinned="false" current-in-tab="false">
                     <entry file="file://$PROJECT_DIR$/public/model/my-database.php">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="36">
+                        <state relative-caret-position="1905">
                           <caret line="127" column="21" lean-forward="false" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
                           <folding />
                         </state>
@@ -335,11 +341,11 @@
                 </leaf>
               </split-first>
               <split-second>
-                <leaf>
+                <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
                   <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
                     <entry file="file://$PROJECT_DIR$/public/model/User.php">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="19">
+                        <state relative-caret-position="285">
                           <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
                           <folding>
                             <element signature="n#create#0;n#User#0;n#!!top" expanded="false" />
@@ -369,8 +375,8 @@
                   <file leaf-file-name="ChatMessage.php" pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/public/model/ChatMessage.php">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="102">
-                          <caret line="129" column="34" lean-forward="true" selection-start-line="129" selection-start-column="34" selection-end-line="129" selection-end-column="34" />
+                        <state relative-caret-position="103">
+                          <caret line="129" column="34" lean-forward="false" selection-start-line="129" selection-start-column="34" selection-end-line="129" selection-end-column="34" />
                           <folding>
                             <element signature="e#333#499#0#PHP" expanded="false" />
                             <element signature="e#4856#4929#0#PHP" expanded="false" />
@@ -390,13 +396,14 @@
                   <file leaf-file-name="ChatThread.php" pinned="false" current-in-tab="false">
                     <entry file="file://$PROJECT_DIR$/public/model/ChatThread.php">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="83">
+                        <state relative-caret-position="555">
                           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="110" />
                           <folding>
                             <element signature="n#is_there_available_thread_id#0;n#ChatThread#0;n#!!top" expanded="false" />
                             <element signature="n#get_available_fascilitator_user_id#0;n#ChatThread#0;n#!!top" expanded="false" />
                             <element signature="n#create#0;n#ChatThread#0;n#!!top" expanded="false" />
                             <marker date="1507100401000" expanded="true" signature="577:591" ph="SELECT * FRO... ${self::$table_name}" />
+                            <marker date="1507100401000" expanded="true" signature="1621:1646" ph="SELECT * FRO... ChatMessage" />
                             <marker date="1507100401000" expanded="true" signature="3128:3142" ph="SELECT * FRO... ${self::$table_name}" />
                             <marker date="1507100401000" expanded="true" signature="4215:4244" ph="SELECT COUNT... " />
                             <marker date="1507100401000" expanded="true" signature="4215:4245" ph="SELECT COUNT... " />
@@ -429,36 +436,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$u</find>
-      <find>/public/_scripts/</find>
-      <find>create</find>
-      <find>csrf</find>
-      <find>/login/</find>
-      <find>read() {</find>
-      <find>session</find>
-      <find>is_logg</find>
-      <find>/chat-messages/</find>
-      <find>php echo</find>
-      <find>readB</find>
-      <find>has_user_seen_chat_msg</find>
-      <find>parent::</find>
-      <find>x()</find>
-      <find>fetch</find>
-      <find>read()</find>
-      <find>MAX</find>
-      <find>get_</find>
-      <find>uki</find>
-      <find>-&gt;patch</find>
-      <find>patch(</find>
-      <find>fetch(</find>
-      <find>read(</find>
-      <find>try {</find>
       <find>update</find>
       <find>create(</find>
       <find>&lt;=</find>
       <find>update(</find>
       <find>uk</find>
       <find>next</find>
+      <find>chat-widge</find>
+      <find>#chat-li</find>
+      <find>block</find>
+      <find>back</find>
+      <find>chat-po</find>
+      <find>backg</find>
+      <find>chat-list</find>
+      <find>chat-</find>
+      <find>border</find>
+      <find>widget</find>
+      <find>chat</find>
+      <find>the-widget-container</find>
+      <find>chat-wall-</find>
+      <find>chat-wall</find>
+      <find>chat-pod-se</find>
+      <find>none</find>
+      <find>&lt;button</find>
+      <find>chat-pod-section</find>
+      <find>send</find>
+      <find>100px</find>
+      <find>header</find>
+      <find>widget-header</find>
+      <find>new-chat-msgs-counter</find>
+      <find>chat-widget-window-action-bar</find>
     </findStrings>
     <replaceStrings>
       <replace>LOCAL . &quot;public/</replace>
@@ -485,6 +492,8 @@
       <replace>/chat-message-seen-log/</replace>
       <replace>$cm</replace>
       <replace>=</replace>
+      <replace>block</replace>
+      <replace>inline-block</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -493,14 +502,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/js/chat-list/event_handlers.js" />
-        <option value="$PROJECT_DIR$/private/helper-classes/Validator.php" />
-        <option value="$PROJECT_DIR$/public/view/chat-messages/index.php" />
-        <option value="$PROJECT_DIR$/public/js/chat-messages/instance_vars.js" />
-        <option value="$PROJECT_DIR$/public/controller/MyController.php" />
-        <option value="$PROJECT_DIR$/public/js/chat-messages/tasks.js" />
-        <option value="$PROJECT_DIR$/public/js/chat-list/read.js" />
-        <option value="$PROJECT_DIR$/public/js/chat-list/tasks.js" />
         <option value="$PROJECT_DIR$/public/js/chat-thread/tasks.js" />
         <option value="$PROJECT_DIR$/public/view/chat-list/index.php" />
         <option value="$PROJECT_DIR$/public/js/chat-thread/create.js" />
@@ -514,13 +515,8 @@
         <option value="$PROJECT_DIR$/public/js/session/refresh.js" />
         <option value="$PROJECT_DIR$/public/controller/SessionController.php" />
         <option value="$PROJECT_DIR$/public/js/session/general_functions.js" />
-        <option value="$PROJECT_DIR$/public/css/chat/read.css" />
-        <option value="$PROJECT_DIR$/public/js/chat-thread/event_handlers.js" />
         <option value="$PROJECT_DIR$/public/layouts/header.php" />
-        <option value="$PROJECT_DIR$/public/view/chat/read.php" />
-        <option value="$PROJECT_DIR$/public/view/chat/index.php" />
         <option value="$PROJECT_DIR$/public/js/my-main-script.js" />
-        <option value="$PROJECT_DIR$/public/css/chat-list/read.css" />
         <option value="$PROJECT_DIR$/public/js/chat-messages/fetch.js" />
         <option value="$PROJECT_DIR$/public/view/chat-thread/index.php" />
         <option value="$PROJECT_DIR$/public/js/chat-thread/update.js" />
@@ -529,21 +525,34 @@
         <option value="$PROJECT_DIR$/public/js/chat-message-seen-log/fetch.js" />
         <option value="$PROJECT_DIR$/public/js/chat-thread/fetch.js" />
         <option value="$PROJECT_DIR$/public/js/chat-message-seen-log/read.js" />
-        <option value="$PROJECT_DIR$/public/js/chat-messages/read.js" />
         <option value="$PROJECT_DIR$/public/view/chat-message-seen-log/index.php" />
         <option value="$PROJECT_DIR$/public/js/chat-message-seen-log/ChatMsgSeenLog.js" />
-        <option value="$PROJECT_DIR$/public/js/chat-thread/read.js" />
         <option value="$PROJECT_DIR$/public/js/chat-message-seen-log/update.js" />
-        <option value="$PROJECT_DIR$/public/js/chat-thread/general_functions.js" />
         <option value="$PROJECT_DIR$/public/model/ChatMsgSeenLog.php" />
-        <option value="$PROJECT_DIR$/public/js/chat/event_listeners.js" />
         <option value="$PROJECT_DIR$/public/js/chat-message-seen-log/instance_vars.js" />
         <option value="$PROJECT_DIR$/public/model/ChatMessage.php" />
-        <option value="$PROJECT_DIR$/public/js/chat-message-seen-log/general_functions.js" />
         <option value="$PROJECT_DIR$/public/controller/ChatMsgSeenLogController.php" />
         <option value="$PROJECT_DIR$/public/controller/ChatMessageController.php" />
-        <option value="$PROJECT_DIR$/public/js/chat-messages/general_functions.js" />
+        <option value="$PROJECT_DIR$/public/js/chat-message-seen-log/general_functions.js" />
         <option value="$PROJECT_DIR$/public/js/chat-message-seen-log/patch.js" />
+        <option value="$PROJECT_DIR$/public/view/chat-messages/index.php" />
+        <option value="$PROJECT_DIR$/public/js/chat-messages/read.js" />
+        <option value="$PROJECT_DIR$/public/css/chat-messages/index.css" />
+        <option value="$PROJECT_DIR$/public/css/widgets/index.css" />
+        <option value="$PROJECT_DIR$/public/js/chat-list/event_listeners.js" />
+        <option value="$PROJECT_DIR$/public/js/chat/event_listeners.js" />
+        <option value="$PROJECT_DIR$/public/view/chat/index.php" />
+        <option value="$PROJECT_DIR$/public/js/chat/event_handlers.js" />
+        <option value="$PROJECT_DIR$/public/js/chat/tasks.js" />
+        <option value="$PROJECT_DIR$/public/js/chat-messages/general_functions.js" />
+        <option value="$PROJECT_DIR$/public/js/chat/read.js" />
+        <option value="$PROJECT_DIR$/public/js/chat-thread/event_listeners.js" />
+        <option value="$PROJECT_DIR$/public/js/chat-thread/read.js" />
+        <option value="$PROJECT_DIR$/public/view/chat/read.php" />
+        <option value="$PROJECT_DIR$/public/js/chat-thread/general_functions.js" />
+        <option value="$PROJECT_DIR$/public/css/chat-list/read.css" />
+        <option value="$PROJECT_DIR$/public/js/chat-thread/event_handlers.js" />
+        <option value="$PROJECT_DIR$/public/css/chat/read.css" />
       </list>
     </option>
   </component>
@@ -587,8 +596,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -619,7 +626,7 @@
               <item name="Dental" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="chat-message-seen-log" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="chat-list" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Dental" type="b2602c69:ProjectViewProjectNode" />
@@ -646,26 +653,14 @@
               <item name="Dental" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="chat-message-seen-log" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Dental" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dental" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="chat-messages" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Dental" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dental" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="chat-thread" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="chat" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -673,7 +668,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="pseudo_&#9;null&#9;null&#10;populate_chat_wall&#9;null&#9;null&#10;populate_chat&#9;null&#9;null&#10;ins&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/js/chat-message-seen-log/instance_vars.js&#10;gene&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/js/chat-message-seen-log/general_functions.js&#10;insta&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/js/chat-message-seen-log/instance_vars.js&#10;my_aja&#9;null&#9;null&#10;get_csrf&#9;null&#9;null&#10;ini&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/private/includes/initializations.php&#10;l/e&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/js/layouts/event_listeners.js&#10;footer.ph&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/layouts/footer.php&#10;foo&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/css/layouts/footer.css&#10;initi&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/private/includes/initializations.php&#10;show_chat&#9;null&#9;null&#10;footer&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/layouts/footer.php&#10;header.c&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/css/layouts/header.css&#10;initia&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/private/includes/initializations.php&#10;valida&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/private/helper-classes/Validator.php&#10;my_ajax&#9;null&#9;null&#10;header&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/css/layouts/header.css&#10;header.&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/layouts/header.php&#10;head&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/layouts/header.php&#10;initial&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/private/includes/initializations.php&#10;proj&#9;ACTION&#9;ActivateProjectToolWindow&#10;projec&#9;ACTION&#9;ActivateProjectToolWindow&#10;project&#9;ACTION&#9;ActivateProjectToolWindow&#10;struct&#9;ACTION&#9;ActivateStructureToolWindow&#10;struc&#9;ACTION&#9;ActivateStructureToolWindow" />
+    <property name="SearchEverywhereHistoryKey" value="populate&#9;null&#9;null&#10;populate_&#9;null&#9;null&#10;populate_cha&#9;null&#9;null&#10;pseudo_&#9;null&#9;null&#10;populate_chat_wall&#9;null&#9;null&#10;populate_chat&#9;null&#9;null&#10;ins&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/js/chat-message-seen-log/instance_vars.js&#10;gene&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/js/chat-message-seen-log/general_functions.js&#10;insta&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/js/chat-message-seen-log/instance_vars.js&#10;my_aja&#9;null&#9;null&#10;get_csrf&#9;null&#9;null&#10;ini&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/private/includes/initializations.php&#10;l/e&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/js/layouts/event_listeners.js&#10;footer.ph&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/layouts/footer.php&#10;foo&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/css/layouts/footer.css&#10;initi&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/private/includes/initializations.php&#10;show_chat&#9;null&#9;null&#10;footer&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/layouts/footer.php&#10;header.c&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/css/layouts/header.css&#10;initia&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/private/includes/initializations.php&#10;valida&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/private/helper-classes/Validator.php&#10;my_ajax&#9;null&#9;null&#10;header&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/css/layouts/header.css&#10;header.&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/layouts/header.php&#10;head&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/public/layouts/header.php&#10;initial&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/BucadJavier/Dental/private/includes/initializations.php&#10;proj&#9;ACTION&#9;ActivateProjectToolWindow&#10;projec&#9;ACTION&#9;ActivateProjectToolWindow&#10;project&#9;ACTION&#9;ActivateProjectToolWindow&#10;struct&#9;ACTION&#9;ActivateStructureToolWindow&#10;struc&#9;ACTION&#9;ActivateStructureToolWindow" />
     <property name="Constants" value="false" />
   </component>
   <component name="RecentsManager">
@@ -721,12 +716,13 @@
       <option name="presentableId" value="Default" />
       <updated>1505811247290</updated>
       <workItem from="1505811248669" duration="58272000" />
-      <workItem from="1506126495827" duration="161473000" />
+      <workItem from="1506126495827" duration="161648000" />
+      <workItem from="1507189632001" duration="21652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219745000" />
+    <option name="totallyTimeSpent" value="241572000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -741,14 +737,14 @@
     <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.70168066" order="0" side_tool="true" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.70483196" order="0" side_tool="true" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.29831934" order="1" side_tool="false" content_ui="tabs" x="857" y="101" width="420" height="952" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.29516807" order="1" side_tool="false" content_ui="tabs" x="857" y="101" width="420" height="952" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2657563" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -783,143 +779,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/js/session/general_functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/session/refresh.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/layouts/event_listeners.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding>
-            <element signature="e#53#943#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/my-main-helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/chat-messages/ChatMessage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#ChatMessage#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/helper-functions/csrf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/layouts/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="66" column="7" lean-forward="true" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/view/session/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/view/chat/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="45" column="63" lean-forward="true" selection-start-line="45" selection-start-column="63" selection-end-line="45" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/chat/read.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/chat-list/read.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/controller/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="40" column="46" lean-forward="true" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/view/chat/read.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/chat-thread/event_listeners.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/chat-thread/create.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/chat-thread/event_handlers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -927,7 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -939,27 +801,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/view/chat-messages/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/view/chat-thread/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/chat-thread/instance_vars.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -967,25 +812,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!block;n#update_chat_threads#0" expanded="false" />
-            <element signature="n#!!block;n#update_chat_thread#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/controller/MyController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/controller/ChatThreadController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        <state relative-caret-position="765">
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding>
             <element signature="e#355#2122#0#PHP" expanded="false" />
             <element signature="e#696#2122#0#PHP" expanded="false" />
@@ -1000,7 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1024,23 +864,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/controller/SessionController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
+        <state relative-caret-position="120">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/view/chat-message-seen-log/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/model/my-database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
+        <state relative-caret-position="1905">
           <caret line="127" column="21" lean-forward="false" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
           <folding />
         </state>
@@ -1048,7 +880,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/model/ChatThread.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
+        <state relative-caret-position="960">
           <caret line="64" column="20" lean-forward="false" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
           <folding>
             <element signature="n#is_there_available_thread_id#0;n#ChatThread#0;n#!!top" expanded="false" />
@@ -1070,35 +902,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/model/MyModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
+        <state relative-caret-position="600">
           <caret line="45" column="27" lean-forward="false" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/chat-thread/read.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/chat-thread/general_functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/chat-message-seen-log/fetch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192">
-          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1106,7 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,7 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1122,7 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-54">
           <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1136,8 +939,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/model/ChatMessage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="129" column="34" lean-forward="true" selection-start-line="129" selection-start-column="34" selection-end-line="129" selection-end-column="34" />
+        <state relative-caret-position="103">
+          <caret line="129" column="34" lean-forward="false" selection-start-line="129" selection-start-column="34" selection-end-line="129" selection-end-column="34" />
           <folding>
             <element signature="e#333#499#0#PHP" expanded="false" />
             <element signature="e#4856#4929#0#PHP" expanded="false" />
@@ -1153,18 +956,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/chat-messages/read.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="53" column="12" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/model/ChatMsgSeenLog.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
           <folding>
             <element signature="n#__construct#0;n#ChatMsgSeenLog#0;n#!!top" expanded="false" />
             <element signature="n#create#0;n#ChatMsgSeenLog#0;n#!!top" expanded="false" />
@@ -1187,23 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-18">
           <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/chat/event_listeners.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/chat-message-seen-log/read.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1212,45 +990,248 @@
         <state relative-caret-position="51">
           <caret line="58" column="13" lean-forward="false" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
           <folding>
-            <marker date="1507149777000" expanded="false" signature="424:434" ph="..." />
-            <marker date="1507149777000" expanded="false" signature="502:1290" ph="..." />
-            <marker date="1507149777000" expanded="false" signature="1875:2366" ph="..." />
+            <element signature="e#365#2838#0#PHP" expanded="false" />
+            <element signature="e#449#2838#0#PHP" expanded="false" />
+            <element signature="e#1820#2838#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/controller/ChatMessageController.php">
+    <entry file="file://$PROJECT_DIR$/public/view/chat-message-seen-log/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-          <folding>
-            <element signature="e#766#1577#0#PHP" expanded="false" />
-          </folding>
+        <state relative-caret-position="84">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/chat-messages/general_functions.js">
+    <entry file="file://$PROJECT_DIR$/public/view/login/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/chat-message-seen-log/patch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/chat-message-seen-log/general_functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="74">
+          <caret line="66" column="27" lean-forward="false" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/layouts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1000">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/widgets/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/controller/ChatMessageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
           <folding>
-            <element signature="n#!!block;n#set_chat_msgs_counter#0" expanded="false" />
+            <element signature="e#766#1577#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/chat-message-seen-log/patch.js">
+    <entry file="file://$PROJECT_DIR$/public/view/chat-messages/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="93" column="10" lean-forward="true" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
+        <state relative-caret-position="75">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/chat-thread/instance_vars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/view/chat/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/chat-message-seen-log/fetch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/chat-list/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/chat/tasks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="42" lean-forward="true" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/chat/event_listeners.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/chat-messages/general_functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/chat/event_handlers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/chat-list/event_listeners.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/chat/read.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/chat-messages/read.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="57" column="43" lean-forward="false" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/chat-thread/event_listeners.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/chat-message-seen-log/read.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/chat-thread/read.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="66" column="47" lean-forward="true" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/chat-thread/general_functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="58" column="70" lean-forward="false" selection-start-line="58" selection-start-column="70" selection-end-line="58" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/view/chat/read.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/chat-list/read.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/chat-messages/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/chat-thread/event_handlers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/chat/read.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="102" column="17" lean-forward="false" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
           <folding />
         </state>
       </provider>

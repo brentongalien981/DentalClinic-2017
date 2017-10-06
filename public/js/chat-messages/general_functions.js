@@ -7,7 +7,11 @@ function doChatMessageAfterEffects(class_name, crud_type, json) {
             $(".chat-message-containers").remove();
 
             populate_chat_wall(json);
+
             show_chat_pod();
+
+            set_chat_widget_component_borders();
+
             // scroll_chat_wall_to_bottom();
 
             // For anonymous users only.

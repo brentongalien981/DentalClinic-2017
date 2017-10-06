@@ -40,7 +40,7 @@ function populate_chat_wall(json) {
         // If the chat message is from a dental fascilitator
         if (c["chatter_user_id"] == null) { c["chatter_user_id"] = -69; }
 
-        if (c["chatter_user_id"] != json.actual_user_id) {
+        if (c["chatter_user_id"] == json.actual_user_id) {
             chat_msg_container.classList.add("own-chat-message-containers");
         }
 

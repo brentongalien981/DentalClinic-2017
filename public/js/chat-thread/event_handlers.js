@@ -10,6 +10,28 @@ function add_click_listener_to_chat_thread_button(chat_button) {
 
     chat_thread_id = $(chat_button).attr("thread-id");
 
+    //
+    $("#expand-chat-pod-icon").css("display", "none");
+    $("#collapse-chat-pod-icon").css("display", "initial");
+
 
     read_chat_messages();
+}
+
+function set_current_customer_name(input) {
+
+    //
+    var current_chat_thread_id = input.parentElement.id;
+    var global_chat_thread_id = "chat-thread" + chat_thread_id;
+
+    if (current_chat_thread_id != global_chat_thread_id) { return; }
+
+    var customer_alias = $(input).val();
+
+    if (customer_alias.length > 22) {
+        customer_alias = customer_alias.substring(0, 22);
+        customer_alias += "...";
+    }
+
+    $("#current-customer-name").html("Chatting with: " + customer_alias);
 }

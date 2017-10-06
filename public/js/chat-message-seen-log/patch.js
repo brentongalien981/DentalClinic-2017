@@ -44,7 +44,7 @@ function patch_chat_msgs_counter(num_of_new_chat_msgs, thread_id) {
     // //
     // if (num_of_new_chat_msgs > 0) {
     //     $("#thread-new-msg-count-" + thread_id).html(num_of_new_chat_msgs);
-    //     $("#thread-new-msg-count-" + thread_id).css("display", "block");
+    //     $("#thread-new-msg-count-" + thread_id).css("display", "inline-block");
     //
     // }
     // else {
@@ -82,7 +82,7 @@ function patch_total_num_of_new_chat_msgs() {
         //
         if (actual_new_chat_count_for_thread > 0) {
             $(thread_new_msg_counts[i]).html(actual_new_chat_count_for_thread);
-            $(thread_new_msg_counts[i]).css("display", "block");
+            $(thread_new_msg_counts[i]).css("display", "inline-block");
 
         }
         else {
@@ -101,7 +101,7 @@ function patch_total_num_of_new_chat_msgs() {
     //
     if (total_num_of_new_chat_msgs > 0) {
         $("#new-chat-msgs-counter").html(total_num_of_new_chat_msgs);
-        $("#new-chat-msgs-counter").css("display", "block");
+        $("#new-chat-msgs-counter").css("display", "inline-block");
 
     }
     else {
