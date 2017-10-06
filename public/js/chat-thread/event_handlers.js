@@ -14,7 +14,12 @@ function add_click_listener_to_chat_thread_button(chat_button) {
     $("#expand-chat-pod-icon").css("display", "none");
     $("#collapse-chat-pod-icon").css("display", "initial");
 
+    // $("#current-customer-name").html("Chatting with:");
+    var current_customer_alias_input = $("#customer-alias-input" + chat_thread_id).get(0);
+    set_current_customer_name(current_customer_alias_input);
 
+
+    //
     read_chat_messages();
 }
 

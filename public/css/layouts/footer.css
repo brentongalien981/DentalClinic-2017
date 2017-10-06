@@ -17,3 +17,7 @@
 #my-copyright {
     color: rgb(150, 150, 150);
 }
+
+.footer-services:hover {
+    cursor: pointer;
+}

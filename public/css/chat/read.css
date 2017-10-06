@@ -5,10 +5,12 @@
     font-weight: 100;
     border-radius: 10px;
     box-shadow: 0 0 20px gray;
+    background-color: white;
 }
 
 #chat-widget-header-bar {
     background-color: rgb(19, 198, 26);
+    border-radius: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 0px 15px;
@@ -42,6 +44,7 @@
     background-color: rgb(245, 245, 245);
     padding: 10px 0px;
     padding-bottom: 20px;
+    width: 100%;
 }
 
 #chat-textarea {
@@ -94,7 +97,7 @@ h5#current-customer-name {
 }
 
 #new-chat-msgs-counter {
-
+    display: none;
 }
 
 #chat-widget-window-action-bar i {

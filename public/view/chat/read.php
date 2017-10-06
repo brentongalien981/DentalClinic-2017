@@ -13,10 +13,11 @@
         </div>
 
 
-        <div>
-            <h5 id="current-customer-name">Chatting with: </h5>
-        </div>
-
+        <?php if ($session->is_logged_in()) { ?>
+            <div>
+                <h5 id="current-customer-name">Chatting with: </h5>
+            </div>
+        <?php } ?>
 
 
         <div id="chat-widget-status-bar">

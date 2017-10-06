@@ -4,47 +4,70 @@
 
         <div class="col-sm-2 col-sm-offset-1">
             <h4>Services</h4>
-            <h5>abcdefg</h5>
-            <h5>abcdefg</h5>
-            <h5>abcdefg</h5>
+            <h5><a class="footer-services" data-toggle="modal" data-target="#cosmetics-modal">Cosmetic</a></h5>
+            <h5><a class="footer-services" data-toggle="modal" data-target="#implant-modal">Implant</a></h5>
+            <h5><a class="footer-services" data-toggle="modal" data-target="#restoration-modal">Restorative</a></h5>
+            <h5><a class="footer-services" data-toggle="modal" data-target="#cosmetics-modal">Root Canal</a></h5>
+            <h5><a class="footer-services" data-toggle="modal" data-target="#cosmetics-modal">Emergency</a></h5>
+            <h5><a class="footer-services" data-toggle="modal" data-target="#cosmetics-modal">Children</a></h5>
+            <h5><a class="footer-services" data-toggle="modal" data-target="#cosmetics-modal">X-Ray</a></h5>
+            <h5><a class="footer-services" data-toggle="modal" data-target="#cosmetics-modal">Mouthguard</a></h5>
+
         </div>
 
 
 
         <div class="col-sm-2">
             <h4>Business Hours</h4>
-            <h5>abcdefg</h5>
-            <h5>abcdefg</h5>
-            <h5>abcdefg</h5>
+            <h5>Monday to Friday</h5>
+            <h5>9:00 AM to 6:00 PM</h5>
+
+            <br>
+
+            <h5>Saturday</h5>
+            <h5>10:00 AM to 4:00 PM</h5>
         </div>
 
 
 
         <div class="col-sm-2">
-            <h4>New Patients</h4>
-            <h5>abcdefg</h5>
-            <h5>abcdefg</h5>
-            <h5>abcdefg</h5>
+            <h4>Contact Us</h4>
+            <h5>Dawes Place Dental Clinic</h5>
+            <h5>78 Bretton Rd</h5>
+            <h5>East York, ON</h5>
+            <h5>M4H 9K9</h5>
+            <h5>(416) 824-8036</h5>
+            <h5>dawesplace@bucadjavierdental.ca</h5>
+
+            <br>
+
+            <h5>Halsey Dental Clinic</h5>
+            <h5>81 Halsey Rd</h5>
+            <h5>Markham, ON</h5>
+            <h5>L6E 1V9</h5>
+            <h5>(647) 887-6400</h5>
+            <h5>halsey@bucadjavierdental.ca</h5>
         </div>
 
 
 
         <div class="col-sm-2">
             <h4>Forms</h4>
+            <h5><a href="#dental">Patient Information Form</a></h5>
+            <h5><a href="#dental">Dental History Form</a></h5>
+            <h5><a href="#dental">New Patient Questionnare</a></h5>
+        </div>
+
+
+
+        <div class="col-sm-2">
+            <h4>Accounts</h4>
             <h5><a href="<?= LOCAL . "public/view/login/index.php"; ?>">Log-in</a></h5>
             <h5><a href="<?= LOCAL . "public/view/sign-up/index.php"; ?>">Sign-up</a></h5>
             <h5><a href="<?= LOCAL . "public/controller/LogoutController.php"; ?>">Log-out</a></h5>
         </div>
 
 
-
-
-        <div class="col-sm-2">
-            <h4>Contact Us</h4>
-            <h5>abcdefg</h5>
-            <h5>abcdefg</h5>
-            <h5>abcdefg</h5>
-        </div>
 
     </div>
 

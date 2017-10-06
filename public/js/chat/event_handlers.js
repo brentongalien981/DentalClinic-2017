@@ -27,6 +27,7 @@ function set_chat_list_borders() {
 }
 
 function set_chat_header_borders() {
+
     if ($("#chat-pod-section").css("display") == "block" ||
         $("#chat-list").css("display") == "block") {
 

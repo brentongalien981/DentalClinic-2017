@@ -53,6 +53,7 @@ function populate_chat_list(json) {
 
         //
         var customer_alias_input = document.createElement("input");
+        customer_alias_input.id = "customer-alias-input" + ct["id"];
         $(customer_alias_input).addClass("customer-aliases");
         $(customer_alias_input).attr("type", "text");
         $(customer_alias_input).attr("placeholder", "customer's alias");
