@@ -38,7 +38,7 @@
                         <!--Card image-->
                         <div class="">
 
-                            <img src="<?= LOCAL . "public/img/services-restoration.jpg"; ?>" class="img-fluid services-img">
+                            <img src="<?= LOCAL . "public/img/services/cosmetics-whitening.jpg"; ?>" class="img-fluid services-img">
                         </div>
                         <!--/.Card image-->
                     </div>
@@ -50,14 +50,10 @@
                             <!--Title-->
                             <h3 class="card-title text-danger">Whitening</h3>
                             <!--Text-->
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the
-                                Some quick example text to build on the card title and make up the bulk of the
-                                Some quick example text to build on the card title and make up the bulk of the
-                                card's content.
+                            <p class="card-text">
+                                The perception of tooth color is the result of a complex interaction of factors such as lighting conditions, translucency, opacity, light scattering, gloss and the human eye and brain. Teeth are composed of a surface enamel layer, which is whiter and semitransparent, and an underlying dentin layer, which is darker and less transparent. These are calcified, hard tissues comparable to bone. The natural shade of teeth is best considered as such; an off-white, bone-color rather than pure white. Public opinion of what is normal tooth shade tends to be distorted. Portrayals of cosmetically enhanced teeth are common in the media. In one report, the most common tooth shade in the general population ranged from A1 to A3 on the VITA classical A1-D4 shade guide.
                             </p>
 
-                            <p>by <strong class="">CEO Dexter Javier</strong></p>
                         </div>
                         <!--/.Card content-->
                     </div>
@@ -105,7 +101,7 @@
                         <!--Card image-->
                         <div class="">
 
-                            <img src="<?= LOCAL . "public/img/services-restoration.jpg"; ?>" class="img-fluid services-img">
+                            <img src="<?= LOCAL . "public/img/services/cosmetics-veneers.jpg"; ?>" class="img-fluid services-img">
                         </div>
                         <!--/.Card image-->
                     </div>
@@ -117,14 +113,9 @@
                             <!--Title-->
                             <h3 class="card-title text-danger">Veneers</h3>
                             <!--Text-->
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the
-                                Some quick example text to build on the card title and make up the bulk of the
-                                Some quick example text to build on the card title and make up the bulk of the
-                                card's content.
+                            <p class="card-text">
+                                Veneers are ultra-thin, custom-made porcelain laminates that are bonded directly to the teeth. They are an option for closing gaps, enhance the shape, or change the color of teeth that do not respond well to whitening procedures. In the majority of the cases, some level of tooth reduction is necessary for optimal results.
                             </p>
-
-                            <p>by <strong class="">CEO Dexter Javier</strong></p>
                         </div>
                         <!--/.Card content-->
                     </div>
@@ -150,7 +141,7 @@
                    href="#rnb-details"
                    class="rnb-link">
 
-                    <img src="<?= LOCAL . "public/img/icons/apple.svg"; ?>" class="sub-services-icons">Recontouring and Bonding
+                    <img src="<?= LOCAL . "public/img/icons/apple.svg"; ?>" class="sub-services-icons">Recontouring
                 </a>
             </h4>
         </div>
@@ -173,7 +164,7 @@
                         <!--Card image-->
                         <div class="">
 
-                            <img src="<?= LOCAL . "public/img/services-restoration.jpg"; ?>" class="img-fluid services-img">
+                            <img src="<?= LOCAL . "public/img/services/cosmetics-recontouring.jpg"; ?>" class="img-fluid services-img">
                         </div>
                         <!--/.Card image-->
                     </div>
@@ -185,14 +176,10 @@
                             <!--Title-->
                             <h3 class="card-title text-danger">Recontouring and Bonding</h3>
                             <!--Text-->
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the
-                                Some quick example text to build on the card title and make up the bulk of the
-                                Some quick example text to build on the card title and make up the bulk of the
-                                card's content.
+                            <p class="card-text">
+                                Tooth reshaping removes parts of the enamel to improve the appearance of the tooth. It may be used to correct a small chip, or to alter the length, shape or position of teeth, as well as when there is Tooth Size Discrepancy; it can be used to correct crooked or excessively long teeth. The removed enamel is irreplaceable, and may sometimes expose dentin. It is also known as enameloplasty, odontoplasty, contouring, recontouring, slenderizing, stripping. This procedure offers fast results and can even be a substitute for braces under certain circumstances.
                             </p>
 
-                            <p>by <strong class="">CEO Dexter Javier</strong></p>
                         </div>
                         <!--/.Card content-->
                     </div>

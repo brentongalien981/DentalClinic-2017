@@ -4,14 +4,27 @@
 
         <div class="col-sm-2 col-sm-offset-1">
             <h4>Services</h4>
-            <h5><a class="footer-services" data-toggle="modal" data-target="#cosmetics-modal">Cosmetic</a></h5>
-            <h5><a class="footer-services" data-toggle="modal" data-target="#implant-modal">Implant</a></h5>
-            <h5><a class="footer-services" data-toggle="modal" data-target="#restoration-modal">Restorative</a></h5>
-            <h5><a class="footer-services" data-toggle="modal" data-target="#cosmetics-modal">Root Canal</a></h5>
-            <h5><a class="footer-services" data-toggle="modal" data-target="#cosmetics-modal">Emergency</a></h5>
-            <h5><a class="footer-services" data-toggle="modal" data-target="#cosmetics-modal">Children</a></h5>
-            <h5><a class="footer-services" data-toggle="modal" data-target="#cosmetics-modal">X-Ray</a></h5>
-            <h5><a class="footer-services" data-toggle="modal" data-target="#cosmetics-modal">Mouthguard</a></h5>
+
+            <h5><a class="footer-services" href="#cosmetic-service">Cosmetic</a></h5>
+            <h5><a class="footer-services" href="#implant-service">Implant</a></h5>
+            <h5><a class="footer-services" href="#restoration-service">Restorative</a></h5>
+            <h5><a class="footer-services" href="#root-canal-service">Root Canal Therapy</a></h5>
+
+            <h5><a class="footer-services" href="#emergency-service">Emergency</a></h5>
+            <h5><a class="footer-services" href="#children-service">Children</a></h5>
+            <h5><a class="footer-services" href="#x-ray-service">X-Ray</a></h5>
+            <h5><a class="footer-services" href="#mouthguard-service">Mouthguard</a></h5>
+
+<!--            <h5><a class="footer-services" data-toggle="modal" data-target="#cosmetics-modal">Cosmetic</a></h5>-->
+<!--            <h5><a class="footer-services" data-toggle="modal" data-target="#implant-modal">Implant</a></h5>-->
+<!--            <h5><a class="footer-services" data-toggle="modal" data-target="#restoration-modal">Restorative</a></h5>-->
+<!--            <h5><a class="footer-services" data-toggle="modal" data-target="#root-canal-modal">Root Canal</a></h5>-->
+<!--            <h5><a class="footer-services" data-toggle="modal" data-target="#cosmetics-modal">Emergency</a></h5>-->
+<!--            <h5><a class="footer-services" data-toggle="modal" data-target="#cosmetics-modal">Children</a></h5>-->
+<!--            <h5><a class="footer-services" data-toggle="modal" data-target="#cosmetics-modal">X-Ray</a></h5>-->
+<!--            <h5><a class="footer-services" data-toggle="modal" data-target="#cosmetics-modal">Mouthguard</a></h5>-->
+
+
 
         </div>
 

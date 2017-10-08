@@ -34,7 +34,7 @@
     height: 100%;
 
     border-radius: 5px;
-    box-shadow: 0px 10px 20px rgb(180, 180, 180);
+    /*box-shadow: 0px 10px 20px rgb(180, 180, 180);*/
 }
 
 .card-img-container {
@@ -136,6 +136,10 @@ img.sub-services-icons {
 .sub-services-card {
     margin-bottom: 20px;
     box-shadow: none;
+}
+
+.sub-services-links img {
+    width: 16px;
 }
 
 
