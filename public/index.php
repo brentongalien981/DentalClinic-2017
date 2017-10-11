@@ -12,6 +12,7 @@
 <?php require_once(PUBLIC_PATH . "view/team/index.php"); ?>
 <?php require_once(PUBLIC_PATH . "view/testimonials/index.php"); ?>
 <?php require_once(PUBLIC_PATH . "view/contact/index.php"); ?>
+<?php require_once(PUBLIC_PATH . "view/products/index.php"); ?>
 
 
 

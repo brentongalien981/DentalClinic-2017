@@ -66,7 +66,7 @@
 
 
                 <li>
-                    <a href="#" target="">Store</a>
+                    <a href="#products-main-container" target="">Products</a>
                 </li>
 
 
