@@ -3,7 +3,7 @@
 }
 
 .categories-title {
-    margin-top: 30px;
+
 }
 
 .product-categories {
@@ -24,7 +24,7 @@
 }
 
 .products {
-    background-color: rgb(255, 251, 244);
+    background-color: rgb(254, 249, 255);
     max-width: 350px;
     margin: 30px;
     border-radius: 8px;
@@ -40,11 +40,23 @@
 }
 
 .categories-title {
-    font-size: 20px;
+    margin-top: 40px;
+    font-size: 22px;
+    color: rgb(242, 0, 255);
+    border: 1px solid rgb(242, 0, 255);
+    width: fit-content;
+    border-radius: 5px;
+    padding: 5px 20px;
 }
 
 .sub-categories-title {
     font-size: 18px;
+    color: rgb(255, 178, 0);
+    border: 1px solid rgb(255, 178, 0);
+    width: fit-content;
+    border-radius: 5px;
+    padding: 3px 12px;
+    margin-top: 40px;
 }
 
 .product-name {
@@ -66,7 +78,7 @@
 }
 
 .product-header {
-    background-color: rgb(255, 241, 216);
+    background-color: rgb(250, 193, 255);
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
