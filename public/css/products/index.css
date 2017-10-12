@@ -1,10 +1,30 @@
 #products-main-container {
     background-color: white;
+    padding-top: 50px;
+    padding-bottom: 60px;
 }
 
-.categories-title {
-
+.products-accordions {
+    padding: 10px 20px;
 }
+
+.products-container {
+    padding: 5px 20px;
+}
+
+.product-accordion-links {
+    margin-left: -40px;
+    margin-bottom: 10px;
+    padding: 9px 15px;
+    /*padding-left: 10px;*/
+    background-color: lavender;
+    border-radius: 5px;
+}
+
+.product-category-container-details {
+    color: black;
+}
+
 
 .product-categories {
     /*background-color: orangered;*/
@@ -25,7 +45,7 @@
 
 .products {
     background-color: rgb(254, 249, 255);
-    max-width: 350px;
+    max-width: 320px;
     margin: 30px;
     border-radius: 8px;
     display: inline-block;
@@ -40,13 +60,19 @@
 }
 
 .categories-title {
+    text-decoration: none;
     margin-top: 40px;
-    font-size: 22px;
-    color: rgb(242, 0, 255);
-    border: 1px solid rgb(242, 0, 255);
+    font-size: 20px;
+    color: rgb(178, 93, 252);
+    border: 1px solid rgb(178, 93, 252);
     width: fit-content;
     border-radius: 5px;
     padding: 5px 20px;
+}
+
+.categories-title:hover {
+    text-decoration: none;
+    box-shadow: 0 0 15px rgb(178, 93, 252);
 }
 
 .sub-categories-title {
@@ -66,7 +92,7 @@
 }
 
 .product-description {
-    font-size: 14px;
+    font-size: 12px;
     margin: 0;
     padding: 10px 25px;
 }
@@ -78,7 +104,7 @@
 }
 
 .product-header {
-    background-color: rgb(250, 193, 255);
+    background-color: rgb(203, 147, 255);
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
@@ -87,4 +113,14 @@
     border-top: 1px solid rgb(220, 220, 220);
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
+}
+
+img.category-title-icons {
+    width: 18px;
+    margin-right: 10px;
+    padding-bottom: 3px;
+}
+
+.product-accordion-links h4 {
+    margin-left: 7px;
 }

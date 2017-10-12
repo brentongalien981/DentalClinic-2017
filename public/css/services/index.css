@@ -106,7 +106,7 @@
 }
 
 img.sub-services-icons {
-    width: 2%;
+    /*width: 2%;*/
     margin-right: 10px;
     padding-bottom: 3px;
 }
@@ -140,6 +140,15 @@ img.sub-services-icons {
 
 .sub-services-links img {
     width: 16px;
+}
+
+h3.card-title {
+    margin-top: 0;
+}
+
+img.sub-services-img {
+    widht: 100%;
+    box-shadow: none;
 }
 
 

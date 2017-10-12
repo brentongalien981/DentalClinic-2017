@@ -38,7 +38,7 @@
                         <!--Card image-->
                         <div class="">
 
-                            <img src="<?= LOCAL . "public/img/services/cosmetics-whitening.jpg"; ?>" class="img-fluid services-img">
+                            <img src="<?= LOCAL . "public/img/services/cosmetics-whitening.jpg"; ?>" class="img-fluid sub-services-img">
                         </div>
                         <!--/.Card image-->
                     </div>
@@ -101,7 +101,7 @@
                         <!--Card image-->
                         <div class="">
 
-                            <img src="<?= LOCAL . "public/img/services/cosmetics-veneers.jpg"; ?>" class="img-fluid services-img">
+                            <img src="<?= LOCAL . "public/img/services/cosmetics-veneers.jpg"; ?>" class="img-fluid sub-services-img">
                         </div>
                         <!--/.Card image-->
                     </div>
@@ -164,7 +164,7 @@
                         <!--Card image-->
                         <div class="">
 
-                            <img src="<?= LOCAL . "public/img/services/cosmetics-recontouring.jpg"; ?>" class="img-fluid services-img">
+                            <img src="<?= LOCAL . "public/img/services/cosmetics-recontouring.jpg"; ?>" class="img-fluid sub-services-img">
                         </div>
                         <!--/.Card image-->
                     </div>

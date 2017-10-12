@@ -37,7 +37,7 @@
                         <!--Card image-->
                         <div class="">
 
-                            <img src="<?= LOCAL . "public/img/services/restorative-crowns.jpg"; ?>" class="img-fluid services-img">
+                            <img src="<?= LOCAL . "public/img/services/restorative-crowns.jpg"; ?>" class="img-fluid sub-services-img">
                         </div>
                         <!--/.Card image-->
                     </div>
@@ -100,7 +100,7 @@
                         <!--Card image-->
                         <div class="">
 
-                            <img src="<?= LOCAL . "public/img/services/restorative-composite-resin.jpg"; ?>" class="img-fluid services-img">
+                            <img src="<?= LOCAL . "public/img/services/restorative-composite-resin.jpg"; ?>" class="img-fluid sub-services-img">
                         </div>
                         <!--/.Card image-->
                     </div>
