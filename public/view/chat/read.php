@@ -7,7 +7,7 @@
             <?php if ($session->is_logged_in()) { ?>
                 <i id="chat-list-icon" class="fa fa-list chat-widget-header-bar-icons"></i>
             <?php } else { ?>
-                <button id="chat-with-us-button" class="btn btn-sm btn-info btn-round">Chat with us</button>
+                <button id="chat-with-us-button" class="btn btn-sm btn-success btn-round">Chat with us</button>
             <?php } ?>
 
         </div>

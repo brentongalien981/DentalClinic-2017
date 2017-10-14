@@ -85,5 +85,5 @@
 
 <!--Google Maps Script-->
 <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key={{ Config::get('app.google_maps_api_key') }}&callback=initMap">
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDiGK_MjaHlQwgJd7BH9zA--d7O4phGwHY&callback=initMap">
 </script>

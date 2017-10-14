@@ -1,14 +1,31 @@
-html, body {
-    margin: 0;
-    padding: 0;
+* {
+    /*width: 100%;*/
+}
+
+html {
+    /*overflow-x: hidden;*/
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    width: 100%;
     /*overflow-x: auto;*/
     /*max-width: 100%;*/
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
+}
+
+#myPage {
+    width: 100%;
+    /*overflow-x: hidden;*/
+    /*white-space: nowrap;*/
 }
 
 #my-wrapper {
     margin: 0;
     padding: 0;
+    width: 100%;
     /*min-width: 640px;*/
 }
 

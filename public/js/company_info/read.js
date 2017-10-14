@@ -26,9 +26,9 @@ function manageCompanyMaskDisplay() {
 //            console.log("$('#company-banner').height()::: " + $('#company-banner').height());
 
 
-    // TODO:DEBUG
-    console.log("$('#my-company-mask').width()::: " + $('#my-company-mask').width());
-    console.log("$('#my-company-mask').height()::: " + $('#my-company-mask').height());
+    // // TODO:DEBUG
+    // console.log("$('#my-company-mask').width()::: " + $('#my-company-mask').width());
+    // console.log("$('#my-company-mask').height()::: " + $('#my-company-mask').height());
 
 
 //            header-descriptions

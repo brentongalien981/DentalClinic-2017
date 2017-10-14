@@ -151,5 +151,9 @@ img.sub-services-img {
     box-shadow: none;
 }
 
+.card-img-container div {
+    margin-bottom: 20px;
+}
+
 
 

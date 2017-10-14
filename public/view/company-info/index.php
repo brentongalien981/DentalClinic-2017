@@ -1,6 +1,6 @@
 <?php //require_once(PUBLIC_PATH . "/controller/services/x.php"); ?>
 
-<link href="<?= LOCAL . "/public/css/company_info.css"; ?>" rel="stylesheet" type="text/css">
+<link href="<?= LOCAL . "public/css/company_info.css"; ?>" rel="stylesheet" type="text/css">
 
 <div class="container-fluid text-center" id="company">
 
@@ -14,7 +14,7 @@
 
         <div id="header-descriptions" class="container container-fluid">
 
-            <div class="row">
+            <div id="company-info-container" class="row">
 
                 <div class="col-sm-4 col-sm-offset-2 col-xs-10 col-xs-offset-2 text-left">
                     <h2 id="company-name">Dawes Place Dental</h2>
@@ -23,7 +23,8 @@
                         Dr. Rowena Bucad-Javier<br>
                         &amp; Associates
                     </h4>
-                    <button class="btn btn-danger btn-md"><a href="#">Book Now</a></button>
+<!--                    <button class="btn btn-danger btn-md"><a href="#contact-main-container">Book Now</a></button>-->
+                    <a href="#contact-main-container" class="btn btn-danger btn-md">Book Now</a>
                 </div>
 
 
@@ -66,5 +67,5 @@
 
 
 <!--js-->
-<script src="<?= LOCAL . "/public/js/company_info/read.js"; ?>"></script>
-<script src="<?= LOCAL . "/public/js/company_info/tasks.js"; ?>"></script>
+<script src="<?= LOCAL . "public/js/company_info/read.js"; ?>"></script>
+<!--<script src="--><?//= LOCAL . "public/js/company_info/tasks.js"; ?><!--"></script>-->

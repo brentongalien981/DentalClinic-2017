@@ -51,15 +51,6 @@
             <h5>M4H 9K9</h5>
             <h5>(416) 824-8036</h5>
             <h5>dawesplace@bucadjavierdental.ca</h5>
-
-            <br>
-
-            <h5>Halsey Dental Clinic</h5>
-            <h5>81 Halsey Rd</h5>
-            <h5>Markham, ON</h5>
-            <h5>L6E 1V9</h5>
-            <h5>(647) 887-6400</h5>
-            <h5>halsey@bucadjavierdental.ca</h5>
         </div>
 
 
@@ -110,6 +101,12 @@
 <!--Widgets-->
 <?php require_once(PUBLIC_PATH . "view/widgets/index.php"); ?>
 
+
+
+
+<!--Finalize the app state-->
+<script src="<?= LOCAL . "public/js/company_info/tasks.js"; ?>"></script>
+<script src="<?= LOCAL . "public/js/widgets/tasks.js"; ?>"></script>
 </body>
 
 </html>
