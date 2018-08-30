@@ -50,7 +50,9 @@
 
     <!--    My Shits-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="<?= LOCAL . "public/css/animate.css"; ?>">
     <link href="<?= LOCAL . "public/css/layouts/header.css"; ?>" rel="stylesheet">
+
 
 
     <?php require_once(PUBLIC_PATH . "js/my-main-helper.php"); ?>
